@@ -123,26 +123,6 @@ namespace MyAssaysApp
             repo.NewProtocolWizard.SomeContainer.Next.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Back') on item 'NewProtocolWizard.SomeContainer.Back'.", repo.NewProtocolWizard.SomeContainer.BackInfo, new RecordItemIndex(12));
-            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.BackInfo, "Text", "Back");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'NewProtocolWizard.SomeContainer.SomeList'.", repo.NewProtocolWizard.SomeContainer.SomeListInfo, new RecordItemIndex(13));
-            Validate.Exists(repo.NewProtocolWizard.SomeContainer.SomeListInfo);
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'NewProtocolWizard.SomeContainer.SomeList1'.", repo.NewProtocolWizard.SomeContainer.SomeList1Info, new RecordItemIndex(14));
-            Validate.Exists(repo.NewProtocolWizard.SomeContainer.SomeList1Info);
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Next') on item 'NewProtocolWizard.SomeContainer.Next'.", repo.NewProtocolWizard.SomeContainer.NextInfo, new RecordItemIndex(15));
-            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.NextInfo, "Text", "Next");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.Next' at Center.", repo.NewProtocolWizard.SomeContainer.NextInfo, new RecordItemIndex(16));
-            repo.NewProtocolWizard.SomeContainer.Next.Click();
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data

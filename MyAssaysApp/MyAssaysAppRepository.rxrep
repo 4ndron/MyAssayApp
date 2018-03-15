@@ -150,26 +150,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/button[@text='Back' and @visible='True' and @enabled='True']
 				</item>
 				<item
-				name="SomeList"
-				id="eac7c428-cc1f-432a-9fec-e5abd1721887"
-				searchtimeout="30000ms"
-				capname="list"
-				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
-				addcaps="list,wpfelement"
-				refimgid="c208629a-257e-4497-a51b-7b9c554a8cce">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]
-				</item>
-				<item
-				name="SomeList1"
-				id="ebc37023-fc5e-4a52-859e-b5a10d5b2b63"
-				searchtimeout="30000ms"
-				capname="list"
-				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[2]"
-				addcaps="list,wpfelement"
-				refimgid="39c8219b-9281-41fb-a719-2f068f79ea90">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[2]
-				</item>
-				<item
 				name="MyDataIsMeasuredInTheFormat"
 				id="61058269-7ee7-4588-bd14-1c683da58f07"
 				searchtimeout="30000ms"
@@ -288,15 +268,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 				addcaps="container,wpfelement"
 				refimgid="5525b4f0-19de-4842-8aff-e3de36f0c506">
 					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//list[@automationid='MainListBox']/container/listitem[1]/container/container/container[@automationid='ImageGrid']/container
-				</item>
-				<item
-				name="SomeContainer"
-				id="f5f794da-2d98-47e5-bfab-91261759c7e0"
-				searchtimeout="30000ms"
-				capname="container"
-				addcaps="container,wpfelement"
-				refimgid="99fe4a8c-cc61-4e28-ad57-188a7a932396">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//list[@automationid='MainListBox']/container[@enabled='True' and @visible='True']/listitem[2]/container/container/container[@automationid='ImageGrid']/container
 				</item>
 				<item
 				name="SomeListItem"
@@ -498,16 +469,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container[@visible='True']/container/container/container/text[@caption='Protocol name:']
 				</item>
 				<item
-				name="MyEndpointRacksOf10Protocol1"
-				id="c114d4b3-695f-4d6a-838f-76ffd286ac3e"
-				searchtimeout="30000ms"
-				capname="text"
-				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/container/text[@caption='My Endpoint (Racks of 10) Protocol (1)']"
-				addcaps="text,wpfelement"
-				refimgid="563f227f-2bda-4833-85c9-a70bb9bb4b37">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/container/text[@caption~'^My\ Endpoint\ \(Racks\ of\ 10\)']
-				</item>
-				<item
 				name="LayoutDimensions"
 				id="438ae594-a36f-493e-ab3c-3e3a6da5eab9"
 				searchtimeout="30000ms"
@@ -553,26 +514,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 				addcaps="unknown,wpfelement"
 				refimgid="2f5c215d-3294-4cb6-8b78-4926b389fa44">
 					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/text[@caption~'^My\ Endpoint\ 12x8\ Protocol']/element[2]
-				</item>
-				<item
-				name="Standard"
-				id="1d35632c-f92b-4825-9ff8-c6b119540ac1"
-				searchtimeout="30000ms"
-				capname="text"
-				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list/container/checkbox[1]/container[2]/text[@caption='Standard']"
-				addcaps="text,wpfelement"
-				refimgid="3052ebe9-278f-4ff9-9980-afddef779f1d">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[1]/container[2]/text[@caption='Standard']
-				</item>
-				<item
-				name="SomeContainer2"
-				id="0366d7c0-9e2c-46fb-b437-739ff062f97c"
-				searchtimeout="30000ms"
-				capname="container"
-				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list/container/checkbox[2]/container[2]"
-				addcaps="container,wpfelement"
-				refimgid="c6d2cf60-d1a7-4a54-9c0f-874c80c0569f">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[2]/container[2]
 				</item>
 				<item
 				name="SomeCheckBox"
@@ -677,16 +618,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 				/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/button[@automationid='EditButton' and @enabled!='False' and @text='Edit' and @visible='True']
 			</item>
 			<item
-			name="Close"
-			id="3fa8c87e-89cb-4d65-a74c-77ec3f0e264b"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/titlebar/button[@accessiblename='Close']"
-			addcaps="button,accessible"
-			refimgid="57af1e85-ca56-4850-84c7-7f7ed240d6e6">
-				/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/?/?/button[@accessiblename='Close']
-			</item>
-			<item
 			name="CreateMultipleLayoutButton"
 			id="996bac42-302a-40be-8255-4447f5cfab24"
 			searchtimeout="30000ms"
@@ -749,16 +680,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 				addcaps="button,wpfelement"
 				refimgid="8ee6ddd4-b3b6-47ff-b740-4ee0407dd5d2">
 					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='PasteButton' and @visible='True' and @enabled='True']
-				</item>
-				<item
-				name="SomeContainer"
-				id="3be7171c-356e-4900-b743-c9e7c8334d74"
-				searchtimeout="30000ms"
-				capname="container"
-				refpath="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]"
-				addcaps="container,wpfelement"
-				refimgid="a85c3468-028e-4d19-b281-c030cea922c7">
-					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]
 				</item>
 				<item
 				name="DecimalSeparatorComboBox"
@@ -832,71 +753,148 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 			refimgid="78ba214c-3938-42f2-862c-d6a16acebbad">
 				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/?/?/text[@name~'^Select\ the\ sample\ types\ u' and @visible='True']
 			</item>
-			<folder
-			name="ScrollViewer"
-			id="61d54a1f-8741-4200-9231-dd055760db2b"
+			<item
+			name="MyMeasurementDataIs"
+			id="b504119f-143b-4ae5-8ca5-52323ee29e1c"
 			searchtimeout="30000ms"
-			capname="container"
-			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/element[@classname='SampleTypeSelectionControl']/container[@classname='ScrollViewer']"
-			addcaps="container,uiautomation"
+			capname="text"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']/text[@name='My measurement data is:']"
+			addcaps="text,uiautomation"
+			refimgid="1784ae08-9247-4482-8682-05080f086660">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/?/?/text[@name='My measurement data is:']
+			</item>
+			<item
+			name="DetectionTechnology"
+			id="d0126fe7-4f1d-46bd-ba5e-4670a93ea581"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']/text[@name='Detection technology:']"
+			addcaps="text,uiautomation"
+			refimgid="e9ff1b64-e7ba-439c-9f94-5c829df96c81">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/?/?/text[@name='Detection technology:']
+			</item>
+			<item
+			name="ListView1"
+			id="5f110d98-e9dc-490e-aed5-c07d082e5bc2"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']/list[2]"
+			addcaps="list,uiautomation"
+			refimgid="09abe89c-b55b-42f2-ab73-4fe1a9d1e193">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]
+			</item>
+			<folder
+			name="ListView2"
+			id="40c5bf7e-337f-4f5a-a3a0-f3d7ede59db4"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']/list[1]"
+			addcaps="list,uiautomation"
 			isrooted="True"
 			usecache="False">
 				<item
-				name="CheckBox"
-				id="e78a6d0f-af5b-4c0d-8b0d-054ded45cbb2"
+				name="ListView"
+				id="ce31a2ed-d90e-4eb2-a0ff-be2d3f4d924d"
 				searchtimeout="30000ms"
-				capname="checkbox"
-				addcaps="checkbox,uiautomation,uiautomationtoggle"
-				refimgid="b5ec3d2f-225d-486f-be23-9c5c5b7253c7">
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container/checkbox[1]
+				capname="list"
+				refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']/list[1]"
+				addcaps="list,uiautomation"
+				refimgid="6dc1a985-d2f3-4b91-a3c5-8593e6c13101">
+					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[1]
 				</item>
 				<item
-				name="CheckBox1"
-				id="c870e608-b2db-4d66-9da7-a0ae0cfa5f77"
+				name="Endpoint"
+				id="062ef4f7-40ba-48ec-b3f1-a7411922729e"
 				searchtimeout="30000ms"
-				capname="checkbox"
-				addcaps="checkbox,uiautomation,uiautomationtoggle"
-				refimgid="20fbe3e4-c5e2-42a8-8649-3ad1b42f847a">
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container/checkbox[1]
-				</item>
-				<item
-				name="CheckBox2"
-				id="b8e3ce9e-7a89-4fe0-a02f-e3de579b166d"
-				searchtimeout="30000ms"
-				capname="checkbox"
-				addcaps="checkbox,uiautomation,uiautomationtoggle"
-				refimgid="8d746759-05f2-4dc0-8d14-d12913bc3446">
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container/checkbox[3]
-				</item>
-				<item
-				name="CheckBox3"
-				id="32649937-cf5c-4d9d-a657-be9a3bdf9f71"
-				searchtimeout="30000ms"
-				capname="checkbox"
-				addcaps="checkbox,uiautomation,uiautomationtoggle"
-				refimgid="9970d97d-02f5-46de-a575-ccd86fa59273">
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container/checkbox[4]
-				</item>
-				<item
-				name="CheckBox4"
-				id="85debe86-b3bd-4947-ad0d-e280b57ddf90"
-				searchtimeout="30000ms"
-				capname="checkbox"
-				addcaps="checkbox,uiautomation,uiautomationtoggle"
-				refimgid="edc9c589-3a39-460c-9799-a2001ecd6bd7">
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container/checkbox[@checked='True']
-				</item>
-				<item
-				name="CheckBox5"
-				id="1c413d0b-065f-465c-b188-14cb5563d6be"
-				searchtimeout="30000ms"
-				capname="checkbox"
-				addcaps="checkbox,uiautomation,uiautomationtoggle"
-				refimgid="662b937e-3efe-4e32-981e-9288747c4b72">
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container/checkbox[@checked='True']
+				capname="text"
+				refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[1]/listitem[1]/text[@name='Endpoint']"
+				addcaps="text,uiautomation"
+				refimgid="7cedaac6-5b19-4c43-a811-bf2a72065eb9">
+					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[1]/listitem[1]/text[@name='Endpoint']
 				</item>
 				<basepath>
-					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='SampleTypesEditorStepControl']/?/?/container
+					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[1]
+				</basepath>
+			</folder>
+			<item
+			name="AbsorbanceOD"
+			id="801e1074-73d6-4310-8da1-d0ddba0b3bbe"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]/listitem[1]/text[@name='Absorbance (OD)']"
+			addcaps="text,uiautomation"
+			refimgid="11ff16a4-8567-427a-9eac-c49b207184fa">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]/listitem[1]/text[@name='Absorbance (OD)']
+			</item>
+			<item
+			name="Back"
+			id="5db0c829-37db-4864-b0cb-2565ed028f9d"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="b7d7015e-2d61-48cf-b42d-58f5e9107b95">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/button[@name='Back' and @visible='True' and @enabled='True']
+			</item>
+			<item
+			name="Next"
+			id="bf0ce1ed-a85d-4d85-b86b-077e7e22db76"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="e08b5e75-5bfc-44ff-a6dc-8f34d7125747">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/button[@name='Next' and @visible='True' and @enabled='True']
+			</item>
+			<item
+			name="Next1"
+			id="61ad17b5-5769-4ac2-bc0e-02ec5ef430f9"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/button[@name='Next']/text[@name='Next']"
+			addcaps="text,uiautomation"
+			refimgid="9fb79f1f-ca68-4781-8f09-d8d7e484ca34">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/?/?/text[@name='Next']
+			</item>
+			<item
+			name="DataTypeStepControl"
+			id="1d493f69-7b5a-4fe6-b1d5-04eff94af06c"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']"
+			addcaps="unknown,uiautomation"
+			refimgid="7ce40665-ece2-40d9-8757-051402e5c93e">
+				/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']
+			</item>
+			<folder
+			name="ListView"
+			id="7905f4f5-366a-45c4-b95b-a3f73308761e"
+			searchtimeout="30000ms"
+			capname="list"
+			refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element[@classname='DataTypeStepControl']/list[2]"
+			addcaps="list,uiautomation"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="LuminescenceRLU"
+				id="2c19ae6d-78db-4dd8-8b71-9b7ca71971df"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]/listitem[2]/text[@name='Luminescence (RLU)']"
+				addcaps="text,uiautomation"
+				refimgid="c5c5b40e-ed8b-44b6-b584-9c901fd5b260">
+					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]/listitem[2]/text[@name='Luminescence (RLU)']
+				</item>
+				<item
+				name="FluorescenceFLU"
+				id="6fc5ea0d-a51c-442a-a2f5-2c9305df205c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]/listitem[3]/text[@name='Fluorescence (FLU)']"
+				addcaps="text,uiautomation"
+				refimgid="6defb1fd-8c10-4d20-91b1-6fdced48d245">
+					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]/listitem[3]/text[@name='Fluorescence (FLU)']
+				</item>
+				<basepath>
+					/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']/element/list[2]
 				</basepath>
 			</folder>
 			<basepath>
@@ -928,6 +926,7 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 		capname="contextmenu"
 		refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']"
 		addcaps="contextmenu,nativewindow,wpfwin32element,wpfelement"
+		refimgid="b69f449f-3606-4497-a7b2-10360d40a4c0"
 		isrooted="True"
 		usecache="False">
 			<item
@@ -959,16 +958,6 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 			addcaps="listitem,wpfelement"
 			refimgid="d71937e7-899e-47ce-897d-2c0e2cb0fef4">
 				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='System Default']
-			</item>
-			<item
-			name="Unspecified"
-			id="1075d720-f30b-43cd-8cf3-cd4d1108dc26"
-			searchtimeout="30000ms"
-			capname="listitem"
-			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Unspecified']"
-			addcaps="listitem,wpfelement"
-			refimgid="e80c8ce9-884c-442f-9a1b-5f6bd820cac7">
-				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Unspecified']
 			</item>
 			<item
 			name="Control"
@@ -1031,44 +1020,44 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Calibrator']
 			</item>
 			<item
-			name="SomeGrip"
-			id="37ed4e25-b8f4-4a4f-808e-14b09f5eae7d"
-			searchtimeout="30000ms"
-			capname="grip"
-			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/slider/container/slider/grip"
-			addcaps="grip,wpfelement"
-			refimgid="ea79169f-27cd-479e-8b88-9ad3dd05cc7b">
-				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']//slider[@automationid='PART_Track']/grip
-			</item>
-			<item
-			name="SomeButton"
-			id="e3b50243-3def-4bfc-b7a0-e5b55cf781ad"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/slider/container/slider/button[1]"
-			addcaps="button,wpfelement"
-			refimgid="0362b8bf-d061-4b9e-90a4-c96a1a7fe8b4">
-				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']//slider[@automationid='PART_Track']/button[1]
-			</item>
-			<item
-			name="SomeContainer"
-			id="56229103-2e9b-489c-b6ae-f3bff586647e"
-			searchtimeout="30000ms"
-			capname="container"
-			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/container[1]"
-			addcaps="container,wpfelement"
-			refimgid="4bcafd89-35f2-4d1d-ae0c-58dfc435d337">
-				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']/container/container[1]
-			</item>
-			<item
 			name="SomeElement"
-			id="db1197ee-ca3a-4f4b-a6f8-0cf6dc75d736"
+			id="252a9525-c51b-40a3-b635-0aa66de2ef89"
 			searchtimeout="30000ms"
 			capname="unknown"
-			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/container[1]/container[3]/element"
+			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/container[3]/text[5]/element[2]"
 			addcaps="unknown,wpfelement"
-			refimgid="59a9de8c-a333-4bea-9891-4eeff3a33255">
-				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']/container/container[1]/container[3]/element
+			refimgid="1db33c9d-ccc4-4fde-ba1d-6f110e24abaf">
+				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']/container/container[3]/text[5]/element[2]
+			</item>
+			<item
+			name="SomeElement1"
+			id="9636edde-a658-4c9d-b371-d1c101d3d508"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/container[3]/text[6]/element[2]"
+			addcaps="unknown,wpfelement"
+			refimgid="a9dc3568-5bfe-4506-8436-c27acabdecb8">
+				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']/container/container[3]/text[6]/element[2]
+			</item>
+			<item
+			name="SomeElement3"
+			id="d3dd4bc5-bd43-4b24-86c8-601b06d3b025"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/container[3]/text[7]/element[2]"
+			addcaps="unknown,wpfelement"
+			refimgid="d6a6ff32-00d1-406f-b1de-23cced899550">
+				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']/container/container[3]/text[7]/element[2]
+			</item>
+			<item
+			name="PARTColorStringEditor"
+			id="8812fde9-993d-4016-b7a2-521d4e4457b3"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/contextmenu[@wpfnative='True' and @processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element/container/container[2]/text[@automationid='PART_ColorStringEditor']"
+			addcaps="text,wpfelement"
+			refimgid="ee0faab3-ffae-4cd0-8b11-cc747a6bf2a5">
+				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']//text[@automationid='PART_ColorStringEditor']
 			</item>
 			<basepath>
 				/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']
@@ -1185,15 +1174,6 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 					/form[@wpfnative='True' and @title='Results Naming' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/container[1]/radiobutton[@checked='True']
 				</item>
 				<item
-				name="SomeRadioButton1"
-				id="60f23ff6-bdcb-4bbe-a22a-90f179566f47"
-				searchtimeout="30000ms"
-				capname="radiobutton"
-				addcaps="radiobutton,wpfelement"
-				refimgid="dec59b93-c77c-4cd4-aa21-caeb0d17ec3b">
-					/form[@wpfnative='True' and @title='Results Naming' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/container[1]/radiobutton[@checked='True' and @type='RadioButton']
-				</item>
-				<item
 				name="Folder"
 				id="451bfbb2-b7be-4d35-a03b-fa68e0337242"
 				searchtimeout="30000ms"
@@ -1270,16 +1250,6 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 					/form[@wpfnative='True' and @title='Results Naming' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/container[2]/container/button[2]
 				</item>
 				<item
-				name="OptionMark"
-				id="cc7a671a-f5f3-470c-9032-cfeb4bc7356a"
-				searchtimeout="30000ms"
-				capname="unknown"
-				refpath="/form[@wpfnative='True' and @title='Results Naming' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/container[1]/radiobutton[2]/element[@automationid='optionMark']"
-				addcaps="unknown,wpfelement"
-				refimgid="cae9fca5-c3bc-434f-97f4-6ca6e85069f4">
-					/form[@wpfnative='True' and @title='Results Naming' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/container[1]/radiobutton[2]/element[@automationid='optionMark']
-				</item>
-				<item
 				name="SomeRadioButton2"
 				id="4466c5f7-aead-41be-9d7b-548fd546230e"
 				searchtimeout="30000ms"
@@ -1316,315 +1286,15 @@ cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<appfolder
-		name="MacrosEditor"
-		id="8dc48d57-4d5f-44ee-af7c-c3022ee747cc"
-		searchtimeout="30000ms"
-		capname="form"
-		refpath="/form[@automationid='MacrosEditor' and @wpfnative='True' and @name='MacrosEditor']"
-		addcaps="form,nativewindow,wpfwin32element,wpfelement"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="Close"
-			id="c7b6b38d-4216-45c4-ab1a-4206a89229ec"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/form[@automationid='MacrosEditor' and @wpfnative='True' and @name='MacrosEditor']/titlebar/button[@accessiblename='Close']"
-			addcaps="button,accessible"
-			refimgid="07a9c46c-3301-4e09-9971-3a35fa63d872">
-				/form[@wpfnative='True' and @name='MacrosEditor']/?/?/button[@accessiblename='Close']
-			</item>
-			<basepath>
-				/form[@wpfnative='True' and @name='MacrosEditor']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMMSURBVDhPjZPbSxRRHMeXCnqJCKqXCOqh/oDo
-KYp6KCoigiB76IbUQ08R3TQ027K0Mi1lLYM2LLRMi262tl5nXbvo1pp33R1bd2dH9zIzts6ue5lz
-Zr6N276UEH3gy4HD7/vhnAPH8DcMwyyqqzq9ttq4bZnRaFiQ2f5/hl0De8Sp4VG/u6XVO/L8Ps/W
-ng9yTfv7mypWZ0b+TSAwdBcIABoLqA6AdmJ2hpHcX6tzPE7zGnt90cpKY9aShqyshZnKn/C8zaqR
-73rxCzRiAwgDmmLUZKyDj0c/9cxIztafoY56bqS+3PauZJOBG6hpn/hqqnG1XT7ZfP/QxnDwlY9E
-mxDlahGbqkdi+h1SciNo3KqnGWpCj2LV5XYEJyx5BoGvfaZFG0CkJxqZehCXx0xajK0C4UxIjZdj
-ZugOhP5yBAfvIeKthuzT4zUjGnyJoZ4H5wwTzpLdRDIr4O8A/tt6yqB6S0A9N6CMX4PiKkRi9Bo8
-tgK42y9CGi5DZOyuLnuUcraXHjfUVBxeGmVv+TBZBs1XAvLjJlJsEeJj18H3VcDnNMHfW4nRjyY4
-LMVwfa6Ep/ch3IO1sQ9vq7LTD+ftziulellhi5HQi/HRKxAHr8PSZsHrto+wdPag0ebAq/bPaGjp
-wnOrHXUWBjUvGvPSArbl9K7p7wVibOgq5AEj5L58xIZ1mcxBIQSRJMU3gcLKKeiaSkGIEyQVgkBY
-vJ0WfHmavd7LnOkUHbma5MiF2H0eM71GkFkeGoC3HJDFqNjaRLG3VcVjVkOMAGFxuiotqDi1e3HH
-k6PbWsxHCt/fO2gfeX0iKTvyQWL+tOCYXcXm9xRbLDS9Znep8ESBkPSzKC34mx0blq8qLTxbIIiC
-OCc40KFik16cK8+th2wq3DIgRiL5mcp8/OHweoXSgTlBnUfDvrbfJ9hppagcUSHrV4gnk2cz4/MJ
-hULr9IfqJ1SFlFDRzKswj1G8maAIzFKk9P2gKF7KjM9H/9Yrxj2+k4Mu9sZkKJQ7KQg5AUG64A2E
-cvXkcEHhnP1Tz/ZfIrh3GRpvDyEAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		name="ProtocolMyEndpointRacksOf10Prot"
-		id="15d909dd-e1a6-4dc0-8c79-df9a7cc0403b"
-		searchtimeout="30000ms"
-		capname="form"
-		refpath="/form[@wpfnative='True' and @title='Protocol: My Endpoint (Racks of 10) Protocol (2) - MyAssays Analysis' and @processname='MyAssays.Desktop.Analysis']"
-		addcaps="form,nativewindow,wpfwin32element,wpfelement"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="Stack"
-			id="4b773bac-4d8b-47c2-9e7d-aa91084861c5"
-			searchtimeout="30000ms"
-			capname="container"
-			addcaps="container,wpfelement"
-			refimgid="c09c9ca0-9870-49a8-b962-47d6180351f6">
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']/../container[@automationid='GlassActive']/container[@automationid='stack']
-			</item>
-			<item
-			name="RightBlurRect"
-			id="487afa5c-3671-4095-87d9-d26499698997"
-			searchtimeout="30000ms"
-			capname="unknown"
-			refpath="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']/container/element/container/element[@automationid='RightBlurRect']"
-			addcaps="unknown,wpfelement"
-			refimgid="c5a84b43-3e35-4584-8a10-d059cb246d91">
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']//container[@automationid='GlassActive']/element[@automationid='RightBlurRect']
-			</item>
-			<item
-			name="Ribbon"
-			id="d4bc34a1-c5b0-4c1d-8220-6f63b7aac68f"
-			searchtimeout="30000ms"
-			capname="list"
-			refpath="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']"
-			addcaps="list,wpfelement"
-			refimgid="68ca806d-7b5b-431c-a136-252578dec084">
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']
-			</item>
-			<item
-			name="SomeContainer"
-			id="a687959a-5a0d-4bde-bf3f-65c45520bdc0"
-			searchtimeout="30000ms"
-			capname="unknown"
-			addcaps="container,wpfelement"
-			refimgid="ea1f8691-39b9-4609-9b53-094d7721286f">
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']//element[@automationid='BackStageContent']/list/element[@automationid='ExitButton']/?
-			</item>
-			<basepath>
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ \(Ra' and @processname='MyAssays.Desktop.Analysis']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPbZFbSJNhGMctKrrtsu66CKKQgiLM
-CqGkA5QUBYWExIzooqIoLCpYRCWGJWVYHlrpUpyjtmbfnG6zb+7sjmou85Bubn7u06k7uqP/9s1h
-fdIfHngu3t/vfd7nzWEi4p91yFqPjIs/5ilFTQfqBHUH7jZW5xXXPM8tfF2+c9fLJ9s319buWZ85
-/L+YyMee2BwPvtFbcPYeBtV3HPRg0RLtOBOfsBaF+7pPzROfThDvynNzswg7OuX9sVRQiFS4E2bp
-PgzoyzBkfoBh83V4hy5hfqIM/caKJO9V4eUswo5adtuR9PPTAhlkTTvQa1Ri0uOE0zUEL2XDyLAe
-nfKv4PGqKrIIOyRxw5yYr0cqJMaX2m2wWLQILkYRisYzFUskEQwvokdnTL3nCy5yudy1WXQ5KuKq
-Lj77BqmgAK1vtsNmM6YFsRVBOBZHIBzByNgEFKTW19Ao2J9Fl0N+K1VG6Uok/U2QfsqH1WoARc9i
-LhBakYTSQor24bfLA4lUXseaQiUpISLUE8R9b2EnObBYdBhwDMFNeTOwPz0+Rc/AH4ogEktApiBb
-AKzJ4mlB+4XPIfdDxOgq2FVXYDJp0ffDgcmp6YxAo2OWqICsS55+TgKkWrdacLY54LqDqLcctu+X
-oTeoYB8YzAioGR+Ijk7WTmTKbj5L0NNe1LAwfg3R6UewKEqg1Xaj12yFXNkNlVoDl4dagZmSyhVN
-LAEpPv6Y/slZWpy6h17ZOfSoFXC6p2Cx98NksUGjN+Dnr5HMLhiBgiTZAtGHgt0/NOf7w+6b0EpO
-giS7lv4dmemZXzGaLOk+DqJL3sAScLkF68T8oxxXH8erFh1bEgpbbCPjztkpejY5FwgjEPkrY0rS
-sUrApLnm4Ca58HRVZ0tBtOLptUMiCVFMavTPjFZ7z+CvUY+bomMzC0EE0tMIxURNFmOnuiJ/C69y
-L4fLzdnI3NDW1rZBIBBs7eggDxkM1lJSa6g32QeConbpi2UiJ+cP+4N6GHBYpKQAAAAASUVORK5C
-YII=
-			</icon>
-		</appfolder>
-		<appfolder
-		name="Explorer"
-		id="f4126749-c8ac-4e8b-8f38-bd5a43edda6b"
-		searchtimeout="30000ms"
-		capname="menubar"
-		refpath="/menubar[@processname='explorer']"
-		addcaps="menubar,nativewindow"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="MyAssaysDesktopExplorer1RunningWi"
-			id="6a9c5857-b97e-4ff3-a54c-e2f89e2eae3d"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^MyAssays\ Desktop\ Explorer']"
-			addcaps="button,accessible"
-			refimgid="3455570a-27d0-4b2a-b99d-183662ef82f7">
-				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^MyAssays\ Desktop\ Explorer']
-			</item>
-			<basepath>
-				/menubar[@processname='explorer']
-			</basepath>
-			<icon>
-				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
-VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
-			</icon>
-		</appfolder>
-		<appfolder
-		name="ProtocolMyEndpoint12x8Protocol2"
-		id="f857b106-0aaf-4710-bed7-eaf34be8d9c9"
-		searchtimeout="30000ms"
-		capname="form"
-		refpath="/form[@wpfnative='True' and @title='Protocol: My Endpoint 12x8 Protocol (2) - MyAssays Analysis' and @processname='MyAssays.Desktop.Analysis']"
-		addcaps="form,nativewindow,wpfwin32element,wpfelement"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="BlurRect"
-			id="2bafd825-d97a-4f08-816d-33dbb7dc2efe"
-			searchtimeout="30000ms"
-			capname="unknown"
-			refpath="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container/element/container/element[@automationid='BlurRect']"
-			addcaps="unknown,wpfelement"
-			refimgid="2c0121f9-58c2-4300-9855-d2caff624ec6">
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']//container[@automationid='GlassActive']/element[@automationid='BlurRect']
-			</item>
-			<folder
-			name="SomeContainer"
-			id="98ba8d51-534c-4791-902b-80067d6556ef"
-			searchtimeout="30000ms"
-			capname="container"
-			refpath="/form[@wpfnative='True' and @title='Protocol: My Endpoint (Racks of 10) Protocol (4) - MyAssays Analysis' and @processname='MyAssays.Desktop.Analysis']/container"
-			addcaps="container,wpfelement"
-			isrooted="True"
-			usecache="False">
-				<item
-				name="IconImage"
-				id="e710962c-ec9d-4072-9313-944a8f18b6dc"
-				searchtimeout="30000ms"
-				capname="picture"
-				refpath="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/element/list/element[@automationid='ExitButton']/container/container/picture[@automationid='iconImage']"
-				addcaps="picture,wpfelement"
-				refimgid="34a43162-c969-4526-954c-0959856fb596">
-					/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container//element[@automationid='BackStageContent']/list/element[@automationid='ExitButton']//picture[@automationid='iconImage']
-				</item>
-				<item
-				name="ControlLabel"
-				id="17c7f219-d57c-4b21-ab00-e993b998ee21"
-				searchtimeout="30000ms"
-				capname="text"
-				refpath="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/element/list/element[@automationid='ExitButton']/container/container/text[@automationid='controlLabel']"
-				addcaps="text,wpfelement"
-				refimgid="e59919a0-d50c-4876-badc-49335183a6cd">
-					/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container//element[@automationid='BackStageContent']/list/element[@automationid='ExitButton']//text[@automationid='controlLabel']
-				</item>
-				<item
-				name="Ribbon"
-				id="edb7be9f-e18f-4397-bc94-1de586c045e7"
-				searchtimeout="30000ms"
-				capname="list"
-				refpath="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']"
-				addcaps="list,wpfelement"
-				refimgid="f01b00d8-53e2-493e-ab86-94b55818cac0">
-					/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']
-				</item>
-				<basepath>
-					/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']/container
-				</basepath>
-			</folder>
-			<basepath>
-				/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ 12x' and @processname='MyAssays.Desktop.Analysis']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALuSURBVDhPbZFbSJNhGMctKrrtsu66CKKQgiLM
-CqGkA5QUBYWExIzooqIoLCpYRCWGJWVYHlrpUpyjtmbfnG6zb+7sjmou85Bubn7u06k7uqP/9s1h
-fdIfHngu3t/vfd7nzWEi4p91yFqPjIs/5ilFTQfqBHUH7jZW5xXXPM8tfF2+c9fLJ9s319buWZ85
-/L+YyMee2BwPvtFbcPYeBtV3HPRg0RLtOBOfsBaF+7pPzROfThDvynNzswg7OuX9sVRQiFS4E2bp
-PgzoyzBkfoBh83V4hy5hfqIM/caKJO9V4eUswo5adtuR9PPTAhlkTTvQa1Ri0uOE0zUEL2XDyLAe
-nfKv4PGqKrIIOyRxw5yYr0cqJMaX2m2wWLQILkYRisYzFUskEQwvokdnTL3nCy5yudy1WXQ5KuKq
-Lj77BqmgAK1vtsNmM6YFsRVBOBZHIBzByNgEFKTW19Ao2J9Fl0N+K1VG6Uok/U2QfsqH1WoARc9i
-LhBakYTSQor24bfLA4lUXseaQiUpISLUE8R9b2EnObBYdBhwDMFNeTOwPz0+Rc/AH4ogEktApiBb
-AKzJ4mlB+4XPIfdDxOgq2FVXYDJp0ffDgcmp6YxAo2OWqICsS55+TgKkWrdacLY54LqDqLcctu+X
-oTeoYB8YzAioGR+Ijk7WTmTKbj5L0NNe1LAwfg3R6UewKEqg1Xaj12yFXNkNlVoDl4dagZmSyhVN
-LAEpPv6Y/slZWpy6h17ZOfSoFXC6p2Cx98NksUGjN+Dnr5HMLhiBgiTZAtGHgt0/NOf7w+6b0EpO
-giS7lv4dmemZXzGaLOk+DqJL3sAScLkF68T8oxxXH8erFh1bEgpbbCPjztkpejY5FwgjEPkrY0rS
-sUrApLnm4Ca58HRVZ0tBtOLptUMiCVFMavTPjFZ7z+CvUY+bomMzC0EE0tMIxURNFmOnuiJ/C69y
-L4fLzdnI3NDW1rZBIBBs7eggDxkM1lJSa6g32QeConbpi2UiJ+cP+4N6GHBYpKQAAAAASUVORK5C
-YII=
-			</icon>
-		</appfolder>
-		<appfolder
 		name="SampleTypesEditor"
 		id="031c7ed0-8110-4118-9d55-c0144212dfb2"
 		searchtimeout="30000ms"
 		capname="form"
 		refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']"
 		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		refimgid="5dd60c2e-f4ab-4c71-a617-9f0f25a9b210"
 		isrooted="True"
 		usecache="True">
-			<item
-			name="PARTLineDownButton"
-			id="9fa82448-66ca-4f8d-bb22-9c1c53408e0d"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/scrollbar[@automationid='VerticalScrollBar']/button[@automationid='PART_LineDownButton']"
-			addcaps="button,wpfelement"
-			refimgid="082546c3-b362-42b3-853b-16653b1b237a">
-				/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/scrollbar[@automationid='VerticalScrollBar']/button[@automationid='PART_LineDownButton']
-			</item>
-			<item
-			name="SomeButton"
-			id="d7173ddf-8373-45f3-82ad-47b2f50008d1"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/container/scrollbar[@automationid='VerticalScrollBar']/slider/button[2]"
-			addcaps="button,wpfelement"
-			refimgid="f053c366-b028-46bc-a8b4-76e81aa60bea">
-				/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//scrollbar[@automationid='VerticalScrollBar']/slider[@automationid='PART_Track']/button[2]
-			</item>
-			<item
-			name="ToggleButton"
-			id="72eadab2-391b-4d7e-8e09-58ac9437c2b4"
-			searchtimeout="30000ms"
-			capname="checkbox"
-			refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[1]/container/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
-			addcaps="checkbox,wpfelement"
-			refimgid="7076516a-32b9-47de-bc62-249b8550af7b">
-				/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']
-			</item>
 			<folder
 			name="SomeContainer"
 			id="23d80eac-365b-4163-a405-14374ed8538b"
@@ -1645,26 +1315,6 @@ YII=
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Add Sample Type']
 				</item>
 				<item
-				name="SomeElement"
-				id="c9c03daa-8463-4be1-8939-065f456c8788"
-				searchtimeout="30000ms"
-				capname="unknown"
-				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[1]/text[@caption='Standard']/element[2]"
-				addcaps="unknown,wpfelement"
-				refimgid="b32383cc-138b-4bb2-958e-06f39318c2a5">
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[1]/text/element[2]
-				</item>
-				<item
-				name="EditTheSampleTypesUsedInYourAssay"
-				id="6acec0e0-96d9-4c73-8f5c-e32dec376163"
-				searchtimeout="30000ms"
-				capname="text"
-				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/text[@caption='Edit the sample types used in your assays. Press OK to save changes.']"
-				addcaps="text,wpfelement"
-				refimgid="b81635b5-207f-45a0-a21b-6f554e0230b4">
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/text[@caption~'^Edit\ the\ sample\ types\ use']
-				</item>
-				<item
 				name="SomeContainer"
 				id="7eeb8b64-8e0f-4e56-8013-4a29ca41e35f"
 				searchtimeout="30000ms"
@@ -1673,6 +1323,15 @@ YII=
 				addcaps="container,wpfelement"
 				refimgid="cc5d5e3a-a65e-4771-9901-8d1d06ae67a1">
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container
+				</item>
+				<item
+				name="ButtonOK"
+				id="49a59b95-27e6-411d-a1b8-06d39a8dca74"
+				searchtimeout="30000ms"
+				capname="button"
+				addcaps="button,wpfelement"
+				refimgid="4a8c004c-0f6c-44d3-8cae-61c9590c6734">
+					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK' and @visible='True' and @enabled='True']
 				</item>
 				<basepath>
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container
@@ -1698,43 +1357,23 @@ YII=
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']
 				</item>
 				<item
-				name="SomeButton1"
-				id="204395f8-ef6a-452d-a6f0-6ceb7d4c745d"
+				name="SomeButton"
+				id="16572ab8-b5b8-4f3f-b0ee-9524583997f0"
 				searchtimeout="30000ms"
 				capname="button"
-				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button"
 				addcaps="button,wpfelement"
-				refimgid="39539233-f4eb-4b71-afdf-c26d1c99f483">
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button
+				refimgid="12cfea0f-2a3f-427d-ab17-ac5ae14e7b00">
+					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button[@clickmode='Release']
 				</item>
 				<item
-				name="Arrow"
-				id="e5e231e5-55c1-45a7-b623-404265f898c1"
+				name="SomeElement"
+				id="25cd7d7c-2008-4599-b47d-a8c750954735"
 				searchtimeout="30000ms"
 				capname="unknown"
-				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list/container/container[10]/container/combobox/container/checkbox/element[@automationid='Arrow']"
+				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list/container/container[10]/text/element[2]"
 				addcaps="unknown,wpfelement"
-				refimgid="50d89783-4022-46b5-ace5-8e608d8ff4e9">
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/container/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']/element[@automationid='Arrow']
-				</item>
-				<item
-				name="SampleType29"
-				id="6f9e75f3-512b-49f0-9876-ac9104b70f80"
-				searchtimeout="30000ms"
-				capname="text"
-				addcaps="text,wpfelement"
-				refimgid="af24efd5-7c9d-4065-b610-a3ff9f6afebf">
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='SampleType29' and @text='SampleType29']
-				</item>
-				<item
-				name="SomePicture"
-				id="63d4ee05-2282-4172-b705-c0313fbe12e7"
-				searchtimeout="30000ms"
-				capname="picture"
-				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list/container/container[10]/button/picture"
-				addcaps="picture,wpfelement"
-				refimgid="a448d6ae-f4c1-471d-83be-29d86e4750eb">
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button/picture
+				refimgid="a66090df-49a1-45b0-a682-291555372bf1">
+					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text/element[2]
 				</item>
 				<basepath>
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]

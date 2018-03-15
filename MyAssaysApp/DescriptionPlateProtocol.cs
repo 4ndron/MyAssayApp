@@ -209,8 +209,8 @@ namespace MyAssaysApp
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer.FinishInfo, "Text", "Finish");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.Finish' at CenterRight.", repo.NewProtocolWizard.SomeContainer.FinishInfo, new RecordItemIndex(34));
-            repo.NewProtocolWizard.SomeContainer.Finish.Click(Location.CenterRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.Finish' at Center.", repo.NewProtocolWizard.SomeContainer.FinishInfo, new RecordItemIndex(34));
+            repo.NewProtocolWizard.SomeContainer.Finish.Click();
             Delay.Milliseconds(200);
             
         }

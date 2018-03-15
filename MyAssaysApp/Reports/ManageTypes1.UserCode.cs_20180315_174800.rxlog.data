@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d36aa19e4f166c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-TST0ERP"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="15.03.2018 17:48:05"
+		timestampiso="2018-03-15T15:48:05"
+		timeoutfactor="1"
+		module="ManageTypes1">
+		<detail>
+			ManageTypes1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.540"
+			timeRelativeToTestModuleStartTime="00:00.540"
+			timeWallClock="17:48:05"
+			time="00:00.540"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.AdvancedViewButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container[@visible='True' and @enabled='True']/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.AdvancedViewButton"
+				id="5b29d46bc3864f95af0476c08aabc9de"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.726"
+			timeRelativeToTestModuleStartTime="00:02.726"
+			timeWallClock="17:48:08"
+			time="00:02.726"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer.AddSampleType' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Add Sample Type']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.AddSampleType"
+				id="8d722f4f64d64d72b4b9a32a3be0744e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="40"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.744"
+			timeRelativeToTestModuleStartTime="00:03.745"
+			timeWallClock="17:48:09"
+			time="00:03.744"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeElement' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text/element[2]"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeElement"
+				id="25cd7d7c20084599b47da8c750954735"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="43"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.317"
+			timeRelativeToTestModuleStartTime="00:04.318"
+			timeWallClock="17:48:09"
+			time="00:04.317"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back 12}'.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="46"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.656"
+			timeRelativeToTestModuleStartTime="00:05.656"
+			timeWallClock="17:48:11"
+			time="00:05.656"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Hello world'.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="49"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.352"
+			timeRelativeToTestModuleStartTime="00:14.352"
+			timeWallClock="17:48:19"
+			time="00:14.352"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer.SomeContainer' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer"
+				id="7eeb8b648e0f4e5680134a29ca41e35f"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="70"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.707"
+			timeRelativeToTestModuleStartTime="00:15.708"
+			timeWallClock="17:48:21"
+			time="00:15.707"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '150'.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="74"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.525"
+			timeRelativeToTestModuleStartTime="00:16.526"
+			timeWallClock="17:48:21"
+			time="00:16.525"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button[@clickmode='Release']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeButton"
+				id="16572ab8b5b84f3fb0ee9524583997f0"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="79"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.592"
+			timeRelativeToTestModuleStartTime="00:16.592"
+			timeWallClock="17:48:21"
+			time="00:16.592"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.ButtonOK"
+				id="49a59b9527e6411da1b806d39a8dca74"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes1.UserCode.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

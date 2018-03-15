@@ -8,6 +8,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyAssaysApp[MyAssaysApp[]]]&#xD;&#xA;Solution MyAssaysApp\MyAssaysApp\ManagTypes.rxrec&#xD;&#xA;Solution MyAssaysApp\MyAssaysApp\AssemblyInfo.cs" />
+  <ProjectBrowserState value="[Solution MyAssaysApp[MyAssaysApp[]]]&#xD;&#xA;Solution MyAssaysApp\MyAssaysApp\ManageTypes1.rxrec&#xD;&#xA;Solution MyAssaysApp\MyAssaysApp\app.config" />
   <StartupProject value="{EAF16362-FED6-489A-AC5F-33E4A0AE0C5C}" />
 </Properties>

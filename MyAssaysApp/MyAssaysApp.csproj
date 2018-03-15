@@ -92,6 +92,30 @@
       <UserCode>true</UserCode>
       <id>fc5c3b55-6bc4-4342-90d8-040d88967124</id>
     </Compile>
+    <Compile Include="Endpoint_Luminescense_RLU_.cs">
+      <BoundTo>2042d6d4-0d35-464d-8e89-b6a9469a3b7f</BoundTo>
+      <DependentUpon>Endpoint_Luminescense%28RLU%29.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0578e390-6cd1-4cdb-9a37-6009e16f5a99</id>
+    </Compile>
+    <Compile Include="Endpoint_Luminescense_RLU_.UserCode.cs">
+      <BoundTo>2042d6d4-0d35-464d-8e89-b6a9469a3b7f</BoundTo>
+      <DependentUpon>Endpoint_Luminescense%28RLU%29.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>274f3c27-66f9-486b-ada1-0b670187eb36</id>
+    </Compile>
+    <Compile Include="Endpoin_Fluorescence_FLU_.cs">
+      <BoundTo>82e631ae-fc9a-4d25-97eb-4b113c66435e</BoundTo>
+      <DependentUpon>Endpoin_Fluorescence%28FLU%29.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f87b3648-758a-4225-86be-21c2f3d58f93</id>
+    </Compile>
+    <Compile Include="Endpoin_Fluorescence_FLU_.UserCode.cs">
+      <BoundTo>82e631ae-fc9a-4d25-97eb-4b113c66435e</BoundTo>
+      <DependentUpon>Endpoin_Fluorescence%28FLU%29.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5728dfbe-4a6a-4da3-82d8-cdef2613faf6</id>
+    </Compile>
     <Compile Include="FormatMicroplate.cs">
       <BoundTo>e7592ae3-9cca-4c06-8682-7afee3b40c43</BoundTo>
       <DependentUpon>FormatMicroplate.rxrec</DependentUpon>
@@ -128,17 +152,29 @@
       <UserCode>true</UserCode>
       <id>29e3df9d-c386-400c-82fe-1b278bb02d32</id>
     </Compile>
-    <Compile Include="ManageTypes.cs">
-      <BoundTo>00092030-577f-4b9f-aeb5-f4ff6b817593</BoundTo>
-      <DependentUpon>ManageTypes.rxrec</DependentUpon>
+    <Compile Include="Endpoint_Absorbance_OD_.cs">
+      <BoundTo>c8192db2-438f-4ad6-ba07-4f94e490178f</BoundTo>
+      <DependentUpon>Endpoint_Absorbance_OD_.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>843d1668-704d-4271-ab62-9f4d96a79f19</id>
+      <id>fd4f1703-a87c-4793-b653-885cfb1efb41</id>
     </Compile>
-    <Compile Include="ManageTypes.UserCode.cs">
-      <BoundTo>00092030-577f-4b9f-aeb5-f4ff6b817593</BoundTo>
-      <DependentUpon>ManageTypes.rxrec</DependentUpon>
+    <Compile Include="Endpoint_Absorbance_OD_.UserCode.cs">
+      <BoundTo>c8192db2-438f-4ad6-ba07-4f94e490178f</BoundTo>
+      <DependentUpon>Endpoint_Absorbance_OD_.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>29d116db-e75e-4895-9cc2-bede181b5ced</id>
+      <id>82f86354-e30e-49a6-ad2a-7ce9292df545</id>
+    </Compile>
+    <Compile Include="ManageTypes1.cs">
+      <BoundTo>c1bc96e8-4507-4bec-9584-295aab27079d</BoundTo>
+      <DependentUpon>ManageTypes1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e2b343c-0d39-443a-b51e-7f6e5081cb1d</id>
+    </Compile>
+    <Compile Include="ManageTypes1.UserCode.cs">
+      <BoundTo>c1bc96e8-4507-4bec-9584-295aab27079d</BoundTo>
+      <DependentUpon>ManageTypes1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>379fe77b-a38d-4523-8be8-1a9e426be73f</id>
     </Compile>
     <Compile Include="MyAssaysAppRepository.cs">
       <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
@@ -224,6 +260,16 @@
       <id>1c240774-b1f2-4cd0-8f37-a0c822785e38</id>
       <recordtableid>953784d0-38d7-4130-850c-209af87c4718</recordtableid>
     </None>
+    <None Include="Endpoint_Luminescense%28RLU%29.rxrec">
+      <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
+      <id>2042d6d4-0d35-464d-8e89-b6a9469a3b7f</id>
+      <recordtableid>00549337-0378-4b7b-9035-54e89fda144a</recordtableid>
+    </None>
+    <None Include="Endpoin_Fluorescence%28FLU%29.rxrec">
+      <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
+      <id>82e631ae-fc9a-4d25-97eb-4b113c66435e</id>
+      <recordtableid>ae766cd3-ec74-45dd-a6a9-3f246029c187</recordtableid>
+    </None>
     <None Include="FormatMicroplate.rxrec">
       <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
       <id>e7592ae3-9cca-4c06-8682-7afee3b40c43</id>
@@ -239,10 +285,15 @@
       <id>8da90b13-7368-4ef4-af06-a2719a6e02dd</id>
       <recordtableid>00dd5a80-6a5b-4f51-b655-cae7858b8f26</recordtableid>
     </None>
-    <None Include="ManageTypes.rxrec">
+    <None Include="Endpoint_Absorbance_OD_.rxrec">
       <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
-      <id>00092030-577f-4b9f-aeb5-f4ff6b817593</id>
-      <recordtableid>6fea5233-fc64-4207-bbae-f0f572f7233a</recordtableid>
+      <id>c8192db2-438f-4ad6-ba07-4f94e490178f</id>
+      <recordtableid>07867a42-07af-4ff7-a357-ce0553a04c36</recordtableid>
+    </None>
+    <None Include="ManageTypes1.rxrec">
+      <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
+      <id>c1bc96e8-4507-4bec-9584-295aab27079d</id>
+      <recordtableid>af0a3d00-8257-4ec5-b6e4-e1647632253d</recordtableid>
     </None>
     <None Include="MyAssaysAppRepository.rximg">
       <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>

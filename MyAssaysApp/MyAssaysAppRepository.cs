@@ -32,10 +32,6 @@ namespace MyAssaysApp
         MyAssaysAppRepositoryFolders.NewProtocolWizard1AppFolder _newprotocolwizard1;
         MyAssaysAppRepositoryFolders.MyAssaysDesktopExplorerAppFolder _myassaysdesktopexplorer;
         MyAssaysAppRepositoryFolders.ResultsNamingAppFolder _resultsnaming;
-        MyAssaysAppRepositoryFolders.MacrosEditorAppFolder _macroseditor;
-        MyAssaysAppRepositoryFolders.ProtocolMyEndpointRacksOf10ProtAppFolder _protocolmyendpointracksof10prot;
-        MyAssaysAppRepositoryFolders.ExplorerAppFolder _explorer;
-        MyAssaysAppRepositoryFolders.ProtocolMyEndpoint12x8Protocol2AppFolder _protocolmyendpoint12x8protocol2;
         MyAssaysAppRepositoryFolders.SampleTypesEditorAppFolder _sampletypeseditor;
 
         /// <summary>
@@ -58,10 +54,6 @@ namespace MyAssaysApp
             _newprotocolwizard1 = new MyAssaysAppRepositoryFolders.NewProtocolWizard1AppFolder(this);
             _myassaysdesktopexplorer = new MyAssaysAppRepositoryFolders.MyAssaysDesktopExplorerAppFolder(this);
             _resultsnaming = new MyAssaysAppRepositoryFolders.ResultsNamingAppFolder(this);
-            _macroseditor = new MyAssaysAppRepositoryFolders.MacrosEditorAppFolder(this);
-            _protocolmyendpointracksof10prot = new MyAssaysAppRepositoryFolders.ProtocolMyEndpointRacksOf10ProtAppFolder(this);
-            _explorer = new MyAssaysAppRepositoryFolders.ExplorerAppFolder(this);
-            _protocolmyendpoint12x8protocol2 = new MyAssaysAppRepositoryFolders.ProtocolMyEndpoint12x8Protocol2AppFolder(this);
             _sampletypeseditor = new MyAssaysAppRepositoryFolders.SampleTypesEditorAppFolder(this);
         }
 
@@ -124,42 +116,6 @@ namespace MyAssaysApp
         public virtual MyAssaysAppRepositoryFolders.ResultsNamingAppFolder ResultsNaming
         {
             get { return _resultsnaming; }
-        }
-
-        /// <summary>
-        /// The MacrosEditor folder.
-        /// </summary>
-        [RepositoryFolder("8dc48d57-4d5f-44ee-af7c-c3022ee747cc")]
-        public virtual MyAssaysAppRepositoryFolders.MacrosEditorAppFolder MacrosEditor
-        {
-            get { return _macroseditor; }
-        }
-
-        /// <summary>
-        /// The ProtocolMyEndpointRacksOf10Prot folder.
-        /// </summary>
-        [RepositoryFolder("15d909dd-e1a6-4dc0-8c79-df9a7cc0403b")]
-        public virtual MyAssaysAppRepositoryFolders.ProtocolMyEndpointRacksOf10ProtAppFolder ProtocolMyEndpointRacksOf10Prot
-        {
-            get { return _protocolmyendpointracksof10prot; }
-        }
-
-        /// <summary>
-        /// The Explorer folder.
-        /// </summary>
-        [RepositoryFolder("f4126749-c8ac-4e8b-8f38-bd5a43edda6b")]
-        public virtual MyAssaysAppRepositoryFolders.ExplorerAppFolder Explorer
-        {
-            get { return _explorer; }
-        }
-
-        /// <summary>
-        /// The ProtocolMyEndpoint12x8Protocol2 folder.
-        /// </summary>
-        [RepositoryFolder("f857b106-0aaf-4710-bed7-eaf34be8d9c9")]
-        public virtual MyAssaysAppRepositoryFolders.ProtocolMyEndpoint12x8Protocol2AppFolder ProtocolMyEndpoint12x8Protocol2
-        {
-            get { return _protocolmyendpoint12x8protocol2; }
         }
 
         /// <summary>
@@ -357,7 +313,6 @@ namespace MyAssaysApp
             MyAssaysAppRepositoryFolders.MultipleContainerViewPanelFolder _multiplecontainerviewpanel;
             RepoItemInfo _togglebuttonInfo;
             RepoItemInfo _editbuttonInfo;
-            RepoItemInfo _closeInfo;
             RepoItemInfo _createmultiplelayoutbuttonInfo;
             RepoItemInfo _someelementInfo;
 
@@ -371,7 +326,6 @@ namespace MyAssaysApp
                 _multiplecontainerviewpanel = new MyAssaysAppRepositoryFolders.MultipleContainerViewPanelFolder(this);
                 _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", ".//container[@automationid='Self']/container/container/container/list[@automationid='CreateDropDownButton']/?[@visible='True' and @enabled='True']/?/checkbox[@automationid='ToggleButton']", 30000, null, "eea772a7-4e53-49bc-9bcf-2c621984402e");
                 _editbuttonInfo = new RepoItemInfo(this, "EditButton", "element//container[@automationid='Self']/container/container/button[@automationid='EditButton' and @enabled!='False' and @text='Edit' and @visible='True']", 30000, null, "7324ed7d-e12e-4cf9-ab31-545f24cce5b5");
-                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Close']", 30000, null, "3fa8c87e-89cb-4d65-a74c-77ec3f0e264b");
                 _createmultiplelayoutbuttonInfo = new RepoItemInfo(this, "CreateMultipleLayoutButton", "element//container[@automationid='Self']/container/container/container/button[@automationid='CreateMultipleLayoutButton']", 30000, null, "996bac42-302a-40be-8255-4447f5cfab24");
                 _someelementInfo = new RepoItemInfo(this, "SomeElement", ".//tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='BackgroundFrame' and @visible='True' and @enabled='True']/element[2]", 30000, null, "4f087f68-a078-43b9-8fe3-de864173ba35");
             }
@@ -445,30 +399,6 @@ namespace MyAssaysApp
                 get
                 {
                     return _editbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Close item.
-            /// </summary>
-            [RepositoryItem("3fa8c87e-89cb-4d65-a74c-77ec3f0e264b")]
-            public virtual Ranorex.Button Close
-            {
-                get
-                {
-                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Close item info.
-            /// </summary>
-            [RepositoryItemInfo("3fa8c87e-89cb-4d65-a74c-77ec3f0e264b")]
-            public virtual RepoItemInfo CloseInfo
-            {
-                get
-                {
-                    return _closeInfo;
                 }
             }
 
@@ -550,8 +480,6 @@ namespace MyAssaysApp
             RepoItemInfo _optionmarkInfo;
             RepoItemInfo _createmultiplexassayInfo;
             RepoItemInfo _backInfo;
-            RepoItemInfo _somelistInfo;
-            RepoItemInfo _somelist1Info;
             RepoItemInfo _mydataismeasuredintheformatInfo;
             RepoItemInfo _microplateradiobuttonInfo;
             RepoItemInfo _somelist2Info;
@@ -565,7 +493,6 @@ namespace MyAssaysApp
             RepoItemInfo _somecheckbox1Info;
             RepoItemInfo _selecthowyoursamplesarearrangedusInfo;
             RepoItemInfo _somecontainer1Info;
-            RepoItemInfo _somecontainerInfo;
             RepoItemInfo _somelistitemInfo;
             RepoItemInfo _somelistitem1Info;
             RepoItemInfo _somelistitem2Info;
@@ -587,14 +514,11 @@ namespace MyAssaysApp
             RepoItemInfo _reviewtheconfigurationsummarypressInfo;
             RepoItemInfo _launchprotocolInfo;
             RepoItemInfo _protocolnameInfo;
-            RepoItemInfo _myendpointracksof10protocol1Info;
             RepoItemInfo _layoutdimensionsInfo;
             RepoItemInfo _measurementsInfo;
             RepoItemInfo _datasourceInfo;
             RepoItemInfo _finishInfo;
             RepoItemInfo _someelement2Info;
-            RepoItemInfo _standardInfo;
-            RepoItemInfo _somecontainer2Info;
             RepoItemInfo _somecheckboxInfo;
             RepoItemInfo _somecheckbox2Info;
             RepoItemInfo _somecheckbox3Info;
@@ -615,8 +539,6 @@ namespace MyAssaysApp
                 _optionmarkInfo = new RepoItemInfo(this, "OptionMark", "element/container/container/container[1]/radiobutton[@text~'^I\\ will\\ enter/paste\\ in\\ my\\ ']/element[@automationid='optionMark' and @type='Ellipse']", 30000, null, "6ec07c66-95cb-467a-b6f2-32ded33d63d5");
                 _createmultiplexassayInfo = new RepoItemInfo(this, "CreateMultiplexAssay", "element/container/container/container[2]/checkbox[@text='Create multiplex assay' and @checked='False' and @checkstate='Unchecked']", 30000, null, "4d19df1f-29bb-49c9-8a74-8589f513aeed");
                 _backInfo = new RepoItemInfo(this, "Back", "container[1]/button[@text='Back' and @visible='True' and @enabled='True']", 30000, null, "9424b9ea-5869-4b78-b563-bc52ad5f2fa7");
-                _somelistInfo = new RepoItemInfo(this, "SomeList", "element/container/container/list[1]", 30000, null, "eac7c428-cc1f-432a-9fec-e5abd1721887");
-                _somelist1Info = new RepoItemInfo(this, "SomeList1", "element/container/container/list[2]", 30000, null, "ebc37023-fc5e-4a52-859e-b5a10d5b2b63");
                 _mydataismeasuredintheformatInfo = new RepoItemInfo(this, "MyDataIsMeasuredInTheFormat", "element/container/container/container[1]/text[@caption~'^My\\ data\\ is\\ measured\\ in\\ th' and @text='My data is measured in the format:' and @visible='True']", 30000, null, "61058269-7ee7-4588-bd14-1c683da58f07");
                 _microplateradiobuttonInfo = new RepoItemInfo(this, "MicroplateRadioButton", "element/container/container/container[1]/container/radiobutton[@visible='True' and @enabled='True' and @checked='True' and @text='Microplate']", 30000, null, "998dd073-8d3c-4928-a943-65cb572595b5");
                 _somelist2Info = new RepoItemInfo(this, "SomeList2", "element/container/container/container[3]/list[@visible='True']", 30000, null, "8244cf37-5c27-424b-a6da-4b4e54db02d9");
@@ -630,7 +552,6 @@ namespace MyAssaysApp
                 _somecheckbox1Info = new RepoItemInfo(this, "SomeCheckBox1", "element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[7]", 30000, null, "24bc4a69-35ff-4b8d-95e0-cbb042243193");
                 _selecthowyoursamplesarearrangedusInfo = new RepoItemInfo(this, "SelectHowYourSamplesAreArrangedUs", "element/container/container/text[@caption~'^Select\\ how\\ your\\ samples\\ a' and @visible='True' and @text='Select how your samples are arranged. Use an existing layout or create a new one.']", 30000, null, "65c4c22f-a0ee-4d46-b079-4dcbac1bbcce");
                 _somecontainer1Info = new RepoItemInfo(this, "SomeContainer1", ".//list[@automationid='MainListBox']/container/listitem[1]/container/container/container[@automationid='ImageGrid']/container", 30000, null, "ee061d7f-d42c-4498-9e76-b5f33a47735f");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", ".//list[@automationid='MainListBox']/container[@enabled='True' and @visible='True']/listitem[2]/container/container/container[@automationid='ImageGrid']/container", 30000, null, "f5f794da-2d98-47e5-bfab-91261759c7e0");
                 _somelistitemInfo = new RepoItemInfo(this, "SomeListItem", ".//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[3]", 30000, null, "20ea576f-931d-478d-b205-c44f2de208d1");
                 _somelistitem1Info = new RepoItemInfo(this, "SomeListItem1", ".//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[4]", 30000, null, "ad3ed8be-b5ff-4869-9688-ead9160463b7");
                 _somelistitem2Info = new RepoItemInfo(this, "SomeListItem2", ".//container[@automationid='Self']/container[@visible='True' and @enabled='True']//list[@automationid='MainListBox']/container/listitem[1]", 30000, null, "5cb8c717-eb8b-4b41-b565-865a1d5584d9");
@@ -652,14 +573,11 @@ namespace MyAssaysApp
                 _reviewtheconfigurationsummarypressInfo = new RepoItemInfo(this, "ReviewTheConfigurationSummaryPress", "element/container/container[@visible='True']/container/text[@caption~'^Review\\ the\\ configuration\\ ']", 30000, null, "8b7ccaa7-6c61-4968-97a4-ae55093f6b6d");
                 _launchprotocolInfo = new RepoItemInfo(this, "LaunchProtocol", "element/container/container/container/checkbox[@text='Launch protocol']", 30000, null, "56cd4324-5dad-4490-a836-b4a0324e39a1");
                 _protocolnameInfo = new RepoItemInfo(this, "ProtocolName", "element/container/container[@visible='True']/container/container/container/text[@caption='Protocol name:']", 30000, null, "36422d93-d0d4-4287-96c8-b261d3c5da83");
-                _myendpointracksof10protocol1Info = new RepoItemInfo(this, "MyEndpointRacksOf10Protocol1", "element/container/container/container/container/container/text[@caption~'^My\\ Endpoint\\ \\(Racks\\ of\\ 10\\)']", 30000, null, "c114d4b3-695f-4d6a-838f-76ffd286ac3e");
                 _layoutdimensionsInfo = new RepoItemInfo(this, "LayoutDimensions", "element/container/container[@visible='True']/container/container/container/text[@caption='Layout dimensions:']", 30000, null, "438ae594-a36f-493e-ab3c-3e3a6da5eab9");
                 _measurementsInfo = new RepoItemInfo(this, "Measurements", "element/container/container[@visible='True']/container/container/container/text[@caption='Measurements:']", 30000, null, "a5e993f4-294b-4476-b84d-bf1f14a8d5a5");
                 _datasourceInfo = new RepoItemInfo(this, "DataSource", "element/container/container[@visible='True']/container/container/container/text[@caption='Data source:']", 30000, null, "d488711c-6dbb-4918-a6c9-f6fb90577310");
                 _finishInfo = new RepoItemInfo(this, "Finish", "container[1]/container/button[@text='Finish']", 30000, null, "189c5544-f0ac-49e1-ad0a-edbc099673fe");
                 _someelement2Info = new RepoItemInfo(this, "SomeElement2", "element/container/container/container/container/text[@caption~'^My\\ Endpoint\\ 12x8\\ Protocol']/element[2]", 30000, null, "4aac9df1-5a21-48dd-b1b2-76dab412164d");
-                _standardInfo = new RepoItemInfo(this, "Standard", "element/container/container/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[1]/container[2]/text[@caption='Standard']", 30000, null, "1d35632c-f92b-4825-9ff8-c6b119540ac1");
-                _somecontainer2Info = new RepoItemInfo(this, "SomeContainer2", "element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[2]/container[2]", 30000, null, "0366d7c0-9e2c-46fb-b437-739ff062f97c");
                 _somecheckboxInfo = new RepoItemInfo(this, "SomeCheckBox", "element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[1]", 30000, null, "39d198c6-447d-4714-ac4f-01cbfd607203");
                 _somecheckbox2Info = new RepoItemInfo(this, "SomeCheckBox2", "element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[2]", 30000, null, "c88eae9d-b185-483c-bc3f-9d9a14d9d559");
                 _somecheckbox3Info = new RepoItemInfo(this, "SomeCheckBox3", "element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[3]", 30000, null, "d7d1874f-77e8-472a-8e71-65c51ca907c4");
@@ -811,54 +729,6 @@ namespace MyAssaysApp
                 get
                 {
                     return _backInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeList item.
-            /// </summary>
-            [RepositoryItem("eac7c428-cc1f-432a-9fec-e5abd1721887")]
-            public virtual Ranorex.List SomeList
-            {
-                get
-                {
-                    return _somelistInfo.CreateAdapter<Ranorex.List>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeList item info.
-            /// </summary>
-            [RepositoryItemInfo("eac7c428-cc1f-432a-9fec-e5abd1721887")]
-            public virtual RepoItemInfo SomeListInfo
-            {
-                get
-                {
-                    return _somelistInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeList1 item.
-            /// </summary>
-            [RepositoryItem("ebc37023-fc5e-4a52-859e-b5a10d5b2b63")]
-            public virtual Ranorex.List SomeList1
-            {
-                get
-                {
-                    return _somelist1Info.CreateAdapter<Ranorex.List>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeList1 item info.
-            /// </summary>
-            [RepositoryItemInfo("ebc37023-fc5e-4a52-859e-b5a10d5b2b63")]
-            public virtual RepoItemInfo SomeList1Info
-            {
-                get
-                {
-                    return _somelist1Info;
                 }
             }
 
@@ -1171,30 +1041,6 @@ namespace MyAssaysApp
                 get
                 {
                     return _somecontainer1Info;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item.
-            /// </summary>
-            [RepositoryItem("f5f794da-2d98-47e5-bfab-91261759c7e0")]
-            public virtual Ranorex.Container SomeContainer
-            {
-                get
-                {
-                    return _somecontainerInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item info.
-            /// </summary>
-            [RepositoryItemInfo("f5f794da-2d98-47e5-bfab-91261759c7e0")]
-            public virtual RepoItemInfo SomeContainerInfo
-            {
-                get
-                {
-                    return _somecontainerInfo;
                 }
             }
 
@@ -1703,30 +1549,6 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The MyEndpointRacksOf10Protocol1 item.
-            /// </summary>
-            [RepositoryItem("c114d4b3-695f-4d6a-838f-76ffd286ac3e")]
-            public virtual Ranorex.Text MyEndpointRacksOf10Protocol1
-            {
-                get
-                {
-                    return _myendpointracksof10protocol1Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MyEndpointRacksOf10Protocol1 item info.
-            /// </summary>
-            [RepositoryItemInfo("c114d4b3-695f-4d6a-838f-76ffd286ac3e")]
-            public virtual RepoItemInfo MyEndpointRacksOf10Protocol1Info
-            {
-                get
-                {
-                    return _myendpointracksof10protocol1Info;
-                }
-            }
-
-            /// <summary>
             /// The LayoutDimensions item.
             /// </summary>
             [RepositoryItem("438ae594-a36f-493e-ab3c-3e3a6da5eab9")]
@@ -1843,54 +1665,6 @@ namespace MyAssaysApp
                 get
                 {
                     return _someelement2Info;
-                }
-            }
-
-            /// <summary>
-            /// The Standard item.
-            /// </summary>
-            [RepositoryItem("1d35632c-f92b-4825-9ff8-c6b119540ac1")]
-            public virtual Ranorex.Text Standard
-            {
-                get
-                {
-                    return _standardInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Standard item info.
-            /// </summary>
-            [RepositoryItemInfo("1d35632c-f92b-4825-9ff8-c6b119540ac1")]
-            public virtual RepoItemInfo StandardInfo
-            {
-                get
-                {
-                    return _standardInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer2 item.
-            /// </summary>
-            [RepositoryItem("0366d7c0-9e2c-46fb-b437-739ff062f97c")]
-            public virtual Ranorex.Container SomeContainer2
-            {
-                get
-                {
-                    return _somecontainer2Info.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer2 item info.
-            /// </summary>
-            [RepositoryItemInfo("0366d7c0-9e2c-46fb-b437-739ff062f97c")]
-            public virtual RepoItemInfo SomeContainer2Info
-            {
-                get
-                {
-                    return _somecontainer2Info;
                 }
             }
 
@@ -2097,7 +1871,6 @@ namespace MyAssaysApp
             RepoItemInfo _dataformattogglebuttonInfo;
             RepoItemInfo _clearbuttonInfo;
             RepoItemInfo _pastebuttonInfo;
-            RepoItemInfo _somecontainerInfo;
             RepoItemInfo _decimalseparatorcomboboxInfo;
             RepoItemInfo _someelementInfo;
             RepoItemInfo _decimalseparatorInfo;
@@ -2112,7 +1885,6 @@ namespace MyAssaysApp
                 _dataformattogglebuttonInfo = new RepoItemInfo(this, "DataFormatToggleButton", "tabpage[@title='Pad']/container[1]/checkbox[@automationid='DataFormatToggleButton' and @visible='True' and @enabled='True']", 30000, null, "6c68e981-b58d-4eac-a345-3758aca96fda");
                 _clearbuttonInfo = new RepoItemInfo(this, "ClearButton", "tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='ClearButton' and @visible='True' and @enabled='True']", 30000, null, "d0fcd614-430c-4053-9878-218068f25777");
                 _pastebuttonInfo = new RepoItemInfo(this, "PasteButton", "tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='PasteButton' and @visible='True' and @enabled='True']", 30000, null, "8f1a9457-4250-4397-b281-f4c53c2582e8");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "tabpage[@title='Pad']/container[1]/container[2]", 30000, null, "3be7171c-356e-4900-b743-c9e7c8334d74");
                 _decimalseparatorcomboboxInfo = new RepoItemInfo(this, "DecimalSeparatorComboBox", "tabpage[@title='Pad']/container[1]/container[2]/combobox[@automationid='DecimalSeparatorComboBox' and @visible='True' and @enabled='True']", 30000, null, "5ff700cc-72d3-4240-9a0c-b50dc53419c9");
                 _someelementInfo = new RepoItemInfo(this, "SomeElement", "tabpage[@title='Pad']/text[@automationid='PadViewTextBox']/element[2]", 30000, null, "cff3acf4-1115-4960-aa2a-626a69201415");
                 _decimalseparatorInfo = new RepoItemInfo(this, "DecimalSeparator", "tabpage[@title='Pad']/container[1]/container[2]/text[@caption='Decimal separator:' and @visible='True']", 30000, null, "95d4483c-43c4-44ab-a140-fcd742353376");
@@ -2239,30 +2011,6 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The SomeContainer item.
-            /// </summary>
-            [RepositoryItem("3be7171c-356e-4900-b743-c9e7c8334d74")]
-            public virtual Ranorex.Container SomeContainer
-            {
-                get
-                {
-                    return _somecontainerInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item info.
-            /// </summary>
-            [RepositoryItemInfo("3be7171c-356e-4900-b743-c9e7c8334d74")]
-            public virtual RepoItemInfo SomeContainerInfo
-            {
-                get
-                {
-                    return _somecontainerInfo;
-                }
-            }
-
-            /// <summary>
             /// The DecimalSeparatorComboBox item.
             /// </summary>
             [RepositoryItem("5ff700cc-72d3-4240-9a0c-b50dc53419c9")]
@@ -2341,8 +2089,17 @@ namespace MyAssaysApp
         [RepositoryFolder("c922da4e-3722-4f2d-b839-7e52b4757fec")]
         public partial class NewProtocolWizard1AppFolder : RepoGenBaseFolder
         {
-            MyAssaysAppRepositoryFolders.ScrollViewerFolder _scrollviewer;
+            MyAssaysAppRepositoryFolders.ListView2Folder _listview2;
+            MyAssaysAppRepositoryFolders.ListViewFolder _listview;
             RepoItemInfo _selectthesampletypesusedinyourassInfo;
+            RepoItemInfo _mymeasurementdataisInfo;
+            RepoItemInfo _detectiontechnologyInfo;
+            RepoItemInfo _listview1Info;
+            RepoItemInfo _absorbanceodInfo;
+            RepoItemInfo _backInfo;
+            RepoItemInfo _nextInfo;
+            RepoItemInfo _next1Info;
+            RepoItemInfo _datatypestepcontrolInfo;
 
             /// <summary>
             /// Creates a new NewProtocolWizard1  folder.
@@ -2350,8 +2107,17 @@ namespace MyAssaysApp
             public NewProtocolWizard1AppFolder(RepoGenBaseFolder parentFolder) :
                     base("NewProtocolWizard1", "/form[@name='New Protocol Wizard' and @classname='Window' and @orientation='None']", parentFolder, 30000, null, true, "c922da4e-3722-4f2d-b839-7e52b4757fec", "")
             {
-                _scrollviewer = new MyAssaysAppRepositoryFolders.ScrollViewerFolder(this);
+                _listview2 = new MyAssaysAppRepositoryFolders.ListView2Folder(this);
+                _listview = new MyAssaysAppRepositoryFolders.ListViewFolder(this);
                 _selectthesampletypesusedinyourassInfo = new RepoItemInfo(this, "SelectTheSampleTypesUsedInYourAss", "?/?/text[@name~'^Select\\ the\\ sample\\ types\\ u' and @visible='True']", 30000, null, "8639397e-f171-46fb-a89f-0586ac39c859");
+                _mymeasurementdataisInfo = new RepoItemInfo(this, "MyMeasurementDataIs", "?/?/text[@name='My measurement data is:']", 30000, null, "b504119f-143b-4ae5-8ca5-52323ee29e1c");
+                _detectiontechnologyInfo = new RepoItemInfo(this, "DetectionTechnology", "?/?/text[@name='Detection technology:']", 30000, null, "d0126fe7-4f1d-46bd-ba5e-4670a93ea581");
+                _listview1Info = new RepoItemInfo(this, "ListView1", "element/list[2]", 30000, null, "5f110d98-e9dc-490e-aed5-c07d082e5bc2");
+                _absorbanceodInfo = new RepoItemInfo(this, "AbsorbanceOD", "element/list[2]/listitem[1]/text[@name='Absorbance (OD)']", 30000, null, "801e1074-73d6-4310-8da1-d0ddba0b3bbe");
+                _backInfo = new RepoItemInfo(this, "Back", "button[@name='Back' and @visible='True' and @enabled='True']", 30000, null, "5db0c829-37db-4864-b0cb-2565ed028f9d");
+                _nextInfo = new RepoItemInfo(this, "Next", "button[@name='Next' and @visible='True' and @enabled='True']", 30000, null, "bf0ce1ed-a85d-4d85-b86b-077e7e22db76");
+                _next1Info = new RepoItemInfo(this, "Next1", "?/?/text[@name='Next']", 30000, null, "61ad17b5-5769-4ac2-bc0e-02ec5ef430f9");
+                _datatypestepcontrolInfo = new RepoItemInfo(this, "DataTypeStepControl", "element[@classname='DataTypeStepControl']", 30000, null, "1d493f69-7b5a-4fe6-b1d5-04eff94af06c");
             }
 
             /// <summary>
@@ -2403,58 +2169,251 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The ScrollViewer folder.
+            /// The MyMeasurementDataIs item.
             /// </summary>
-            [RepositoryFolder("61d54a1f-8741-4200-9231-dd055760db2b")]
-            public virtual MyAssaysAppRepositoryFolders.ScrollViewerFolder ScrollViewer
+            [RepositoryItem("b504119f-143b-4ae5-8ca5-52323ee29e1c")]
+            public virtual Ranorex.Text MyMeasurementDataIs
             {
-                get { return _scrollviewer; }
+                get
+                {
+                    return _mymeasurementdataisInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MyMeasurementDataIs item info.
+            /// </summary>
+            [RepositoryItemInfo("b504119f-143b-4ae5-8ca5-52323ee29e1c")]
+            public virtual RepoItemInfo MyMeasurementDataIsInfo
+            {
+                get
+                {
+                    return _mymeasurementdataisInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DetectionTechnology item.
+            /// </summary>
+            [RepositoryItem("d0126fe7-4f1d-46bd-ba5e-4670a93ea581")]
+            public virtual Ranorex.Text DetectionTechnology
+            {
+                get
+                {
+                    return _detectiontechnologyInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DetectionTechnology item info.
+            /// </summary>
+            [RepositoryItemInfo("d0126fe7-4f1d-46bd-ba5e-4670a93ea581")]
+            public virtual RepoItemInfo DetectionTechnologyInfo
+            {
+                get
+                {
+                    return _detectiontechnologyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ListView1 item.
+            /// </summary>
+            [RepositoryItem("5f110d98-e9dc-490e-aed5-c07d082e5bc2")]
+            public virtual Ranorex.List ListView1
+            {
+                get
+                {
+                    return _listview1Info.CreateAdapter<Ranorex.List>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ListView1 item info.
+            /// </summary>
+            [RepositoryItemInfo("5f110d98-e9dc-490e-aed5-c07d082e5bc2")]
+            public virtual RepoItemInfo ListView1Info
+            {
+                get
+                {
+                    return _listview1Info;
+                }
+            }
+
+            /// <summary>
+            /// The AbsorbanceOD item.
+            /// </summary>
+            [RepositoryItem("801e1074-73d6-4310-8da1-d0ddba0b3bbe")]
+            public virtual Ranorex.Text AbsorbanceOD
+            {
+                get
+                {
+                    return _absorbanceodInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AbsorbanceOD item info.
+            /// </summary>
+            [RepositoryItemInfo("801e1074-73d6-4310-8da1-d0ddba0b3bbe")]
+            public virtual RepoItemInfo AbsorbanceODInfo
+            {
+                get
+                {
+                    return _absorbanceodInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Back item.
+            /// </summary>
+            [RepositoryItem("5db0c829-37db-4864-b0cb-2565ed028f9d")]
+            public virtual Ranorex.Button Back
+            {
+                get
+                {
+                    return _backInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Back item info.
+            /// </summary>
+            [RepositoryItemInfo("5db0c829-37db-4864-b0cb-2565ed028f9d")]
+            public virtual RepoItemInfo BackInfo
+            {
+                get
+                {
+                    return _backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Next item.
+            /// </summary>
+            [RepositoryItem("bf0ce1ed-a85d-4d85-b86b-077e7e22db76")]
+            public virtual Ranorex.Button Next
+            {
+                get
+                {
+                    return _nextInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Next item info.
+            /// </summary>
+            [RepositoryItemInfo("bf0ce1ed-a85d-4d85-b86b-077e7e22db76")]
+            public virtual RepoItemInfo NextInfo
+            {
+                get
+                {
+                    return _nextInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Next1 item.
+            /// </summary>
+            [RepositoryItem("61ad17b5-5769-4ac2-bc0e-02ec5ef430f9")]
+            public virtual Ranorex.Text Next1
+            {
+                get
+                {
+                    return _next1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Next1 item info.
+            /// </summary>
+            [RepositoryItemInfo("61ad17b5-5769-4ac2-bc0e-02ec5ef430f9")]
+            public virtual RepoItemInfo Next1Info
+            {
+                get
+                {
+                    return _next1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DataTypeStepControl item.
+            /// </summary>
+            [RepositoryItem("1d493f69-7b5a-4fe6-b1d5-04eff94af06c")]
+            public virtual Ranorex.Unknown DataTypeStepControl
+            {
+                get
+                {
+                    return _datatypestepcontrolInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DataTypeStepControl item info.
+            /// </summary>
+            [RepositoryItemInfo("1d493f69-7b5a-4fe6-b1d5-04eff94af06c")]
+            public virtual RepoItemInfo DataTypeStepControlInfo
+            {
+                get
+                {
+                    return _datatypestepcontrolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ListView2 folder.
+            /// </summary>
+            [RepositoryFolder("40c5bf7e-337f-4f5a-a3a0-f3d7ede59db4")]
+            public virtual MyAssaysAppRepositoryFolders.ListView2Folder ListView2
+            {
+                get { return _listview2; }
+            }
+
+            /// <summary>
+            /// The ListView folder.
+            /// </summary>
+            [RepositoryFolder("7905f4f5-366a-45c4-b95b-a3f73308761e")]
+            public virtual MyAssaysAppRepositoryFolders.ListViewFolder ListView
+            {
+                get { return _listview; }
             }
         }
 
         /// <summary>
-        /// The ScrollViewerFolder folder.
+        /// The ListView2Folder folder.
         /// </summary>
-        [RepositoryFolder("61d54a1f-8741-4200-9231-dd055760db2b")]
-        public partial class ScrollViewerFolder : RepoGenBaseFolder
+        [RepositoryFolder("40c5bf7e-337f-4f5a-a3a0-f3d7ede59db4")]
+        public partial class ListView2Folder : RepoGenBaseFolder
         {
-            RepoItemInfo _checkboxInfo;
-            RepoItemInfo _checkbox1Info;
-            RepoItemInfo _checkbox2Info;
-            RepoItemInfo _checkbox3Info;
-            RepoItemInfo _checkbox4Info;
-            RepoItemInfo _checkbox5Info;
+            RepoItemInfo _listviewInfo;
+            RepoItemInfo _endpointInfo;
 
             /// <summary>
-            /// Creates a new ScrollViewer  folder.
+            /// Creates a new ListView2  folder.
             /// </summary>
-            public ScrollViewerFolder(RepoGenBaseFolder parentFolder) :
-                    base("ScrollViewer", "element[@classname='SampleTypesEditorStepControl']/?/?/container", parentFolder, 30000, null, false, "61d54a1f-8741-4200-9231-dd055760db2b", "")
+            public ListView2Folder(RepoGenBaseFolder parentFolder) :
+                    base("ListView2", "element/list[1]", parentFolder, 30000, null, false, "40c5bf7e-337f-4f5a-a3a0-f3d7ede59db4", "")
             {
-                _checkboxInfo = new RepoItemInfo(this, "CheckBox", "checkbox[1]", 30000, null, "e78a6d0f-af5b-4c0d-8b0d-054ded45cbb2");
-                _checkbox1Info = new RepoItemInfo(this, "CheckBox1", "checkbox[1]", 30000, null, "c870e608-b2db-4d66-9da7-a0ae0cfa5f77");
-                _checkbox2Info = new RepoItemInfo(this, "CheckBox2", "checkbox[3]", 30000, null, "b8e3ce9e-7a89-4fe0-a02f-e3de579b166d");
-                _checkbox3Info = new RepoItemInfo(this, "CheckBox3", "checkbox[4]", 30000, null, "32649937-cf5c-4d9d-a657-be9a3bdf9f71");
-                _checkbox4Info = new RepoItemInfo(this, "CheckBox4", "checkbox[@checked='True']", 30000, null, "85debe86-b3bd-4947-ad0d-e280b57ddf90");
-                _checkbox5Info = new RepoItemInfo(this, "CheckBox5", "checkbox[@checked='True']", 30000, null, "1c413d0b-065f-465c-b188-14cb5563d6be");
+                _listviewInfo = new RepoItemInfo(this, "ListView", "", 30000, null, "ce31a2ed-d90e-4eb2-a0ff-be2d3f4d924d");
+                _endpointInfo = new RepoItemInfo(this, "Endpoint", "listitem[1]/text[@name='Endpoint']", 30000, null, "062ef4f7-40ba-48ec-b3f1-a7411922729e");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("61d54a1f-8741-4200-9231-dd055760db2b")]
-            public virtual Ranorex.Container Self
+            [RepositoryItem("40c5bf7e-337f-4f5a-a3a0-f3d7ede59db4")]
+            public virtual Ranorex.List Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.List>(true);
                 }
             }
 
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("61d54a1f-8741-4200-9231-dd055760db2b")]
+            [RepositoryItemInfo("40c5bf7e-337f-4f5a-a3a0-f3d7ede59db4")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -2464,146 +2423,142 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The CheckBox item.
+            /// The ListView item.
             /// </summary>
-            [RepositoryItem("e78a6d0f-af5b-4c0d-8b0d-054ded45cbb2")]
-            public virtual Ranorex.CheckBox CheckBox
+            [RepositoryItem("ce31a2ed-d90e-4eb2-a0ff-be2d3f4d924d")]
+            public virtual Ranorex.List ListView
             {
                 get
                 {
-                    return _checkboxInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                    return _listviewInfo.CreateAdapter<Ranorex.List>(true);
                 }
             }
 
             /// <summary>
-            /// The CheckBox item info.
+            /// The ListView item info.
             /// </summary>
-            [RepositoryItemInfo("e78a6d0f-af5b-4c0d-8b0d-054ded45cbb2")]
-            public virtual RepoItemInfo CheckBoxInfo
+            [RepositoryItemInfo("ce31a2ed-d90e-4eb2-a0ff-be2d3f4d924d")]
+            public virtual RepoItemInfo ListViewInfo
             {
                 get
                 {
-                    return _checkboxInfo;
+                    return _listviewInfo;
                 }
             }
 
             /// <summary>
-            /// The CheckBox1 item.
+            /// The Endpoint item.
             /// </summary>
-            [RepositoryItem("c870e608-b2db-4d66-9da7-a0ae0cfa5f77")]
-            public virtual Ranorex.CheckBox CheckBox1
+            [RepositoryItem("062ef4f7-40ba-48ec-b3f1-a7411922729e")]
+            public virtual Ranorex.Text Endpoint
             {
                 get
                 {
-                    return _checkbox1Info.CreateAdapter<Ranorex.CheckBox>(true);
+                    return _endpointInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The CheckBox1 item info.
+            /// The Endpoint item info.
             /// </summary>
-            [RepositoryItemInfo("c870e608-b2db-4d66-9da7-a0ae0cfa5f77")]
-            public virtual RepoItemInfo CheckBox1Info
+            [RepositoryItemInfo("062ef4f7-40ba-48ec-b3f1-a7411922729e")]
+            public virtual RepoItemInfo EndpointInfo
             {
                 get
                 {
-                    return _checkbox1Info;
+                    return _endpointInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ListViewFolder folder.
+        /// </summary>
+        [RepositoryFolder("7905f4f5-366a-45c4-b95b-a3f73308761e")]
+        public partial class ListViewFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _luminescencerluInfo;
+            RepoItemInfo _fluorescencefluInfo;
+
+            /// <summary>
+            /// Creates a new ListView  folder.
+            /// </summary>
+            public ListViewFolder(RepoGenBaseFolder parentFolder) :
+                    base("ListView", "element/list[2]", parentFolder, 30000, null, false, "7905f4f5-366a-45c4-b95b-a3f73308761e", "")
+            {
+                _luminescencerluInfo = new RepoItemInfo(this, "LuminescenceRLU", "listitem[2]/text[@name='Luminescence (RLU)']", 30000, null, "2c19ae6d-78db-4dd8-8b71-9b7ca71971df");
+                _fluorescencefluInfo = new RepoItemInfo(this, "FluorescenceFLU", "listitem[3]/text[@name='Fluorescence (FLU)']", 30000, null, "6fc5ea0d-a51c-442a-a2f5-2c9305df205c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("7905f4f5-366a-45c4-b95b-a3f73308761e")]
+            public virtual Ranorex.List Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.List>(true);
                 }
             }
 
             /// <summary>
-            /// The CheckBox2 item.
+            /// The Self item info.
             /// </summary>
-            [RepositoryItem("b8e3ce9e-7a89-4fe0-a02f-e3de579b166d")]
-            public virtual Ranorex.CheckBox CheckBox2
+            [RepositoryItemInfo("7905f4f5-366a-45c4-b95b-a3f73308761e")]
+            public virtual RepoItemInfo SelfInfo
             {
                 get
                 {
-                    return _checkbox2Info.CreateAdapter<Ranorex.CheckBox>(true);
+                    return _selfInfo;
                 }
             }
 
             /// <summary>
-            /// The CheckBox2 item info.
+            /// The LuminescenceRLU item.
             /// </summary>
-            [RepositoryItemInfo("b8e3ce9e-7a89-4fe0-a02f-e3de579b166d")]
-            public virtual RepoItemInfo CheckBox2Info
+            [RepositoryItem("2c19ae6d-78db-4dd8-8b71-9b7ca71971df")]
+            public virtual Ranorex.Text LuminescenceRLU
             {
                 get
                 {
-                    return _checkbox2Info;
+                    return _luminescencerluInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The CheckBox3 item.
+            /// The LuminescenceRLU item info.
             /// </summary>
-            [RepositoryItem("32649937-cf5c-4d9d-a657-be9a3bdf9f71")]
-            public virtual Ranorex.CheckBox CheckBox3
+            [RepositoryItemInfo("2c19ae6d-78db-4dd8-8b71-9b7ca71971df")]
+            public virtual RepoItemInfo LuminescenceRLUInfo
             {
                 get
                 {
-                    return _checkbox3Info.CreateAdapter<Ranorex.CheckBox>(true);
+                    return _luminescencerluInfo;
                 }
             }
 
             /// <summary>
-            /// The CheckBox3 item info.
+            /// The FluorescenceFLU item.
             /// </summary>
-            [RepositoryItemInfo("32649937-cf5c-4d9d-a657-be9a3bdf9f71")]
-            public virtual RepoItemInfo CheckBox3Info
+            [RepositoryItem("6fc5ea0d-a51c-442a-a2f5-2c9305df205c")]
+            public virtual Ranorex.Text FluorescenceFLU
             {
                 get
                 {
-                    return _checkbox3Info;
+                    return _fluorescencefluInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The CheckBox4 item.
+            /// The FluorescenceFLU item info.
             /// </summary>
-            [RepositoryItem("85debe86-b3bd-4947-ad0d-e280b57ddf90")]
-            public virtual Ranorex.CheckBox CheckBox4
+            [RepositoryItemInfo("6fc5ea0d-a51c-442a-a2f5-2c9305df205c")]
+            public virtual RepoItemInfo FluorescenceFLUInfo
             {
                 get
                 {
-                    return _checkbox4Info.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CheckBox4 item info.
-            /// </summary>
-            [RepositoryItemInfo("85debe86-b3bd-4947-ad0d-e280b57ddf90")]
-            public virtual RepoItemInfo CheckBox4Info
-            {
-                get
-                {
-                    return _checkbox4Info;
-                }
-            }
-
-            /// <summary>
-            /// The CheckBox5 item.
-            /// </summary>
-            [RepositoryItem("1c413d0b-065f-465c-b188-14cb5563d6be")]
-            public virtual Ranorex.CheckBox CheckBox5
-            {
-                get
-                {
-                    return _checkbox5Info.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The CheckBox5 item info.
-            /// </summary>
-            [RepositoryItemInfo("1c413d0b-065f-465c-b188-14cb5563d6be")]
-            public virtual RepoItemInfo CheckBox5Info
-            {
-                get
-                {
-                    return _checkbox5Info;
+                    return _fluorescencefluInfo;
                 }
             }
         }
@@ -2617,17 +2572,16 @@ namespace MyAssaysApp
             RepoItemInfo _commaInfo;
             RepoItemInfo _periodInfo;
             RepoItemInfo _systemdefaultInfo;
-            RepoItemInfo _unspecifiedInfo;
             RepoItemInfo _controlInfo;
             RepoItemInfo _unknownInfo;
             RepoItemInfo _blankInfo;
             RepoItemInfo _normalizerInfo;
             RepoItemInfo _spikeInfo;
             RepoItemInfo _calibratorInfo;
-            RepoItemInfo _somegripInfo;
-            RepoItemInfo _somebuttonInfo;
-            RepoItemInfo _somecontainerInfo;
             RepoItemInfo _someelementInfo;
+            RepoItemInfo _someelement1Info;
+            RepoItemInfo _someelement3Info;
+            RepoItemInfo _partcolorstringeditorInfo;
 
             /// <summary>
             /// Creates a new MyAssaysDesktopExplorer  folder.
@@ -2638,17 +2592,16 @@ namespace MyAssaysApp
                 _commaInfo = new RepoItemInfo(this, "Comma", "listitem[@text='Comma (,)']", 30000, null, "bd523009-14b0-4cfb-a9d3-94bf991567bc");
                 _periodInfo = new RepoItemInfo(this, "Period", "listitem[@text='Period (.)']", 30000, null, "dd14e2e7-1e41-457a-bc79-3c3223c56fd8");
                 _systemdefaultInfo = new RepoItemInfo(this, "SystemDefault", "listitem[@text='System Default']", 30000, null, "1dacef1b-f3cd-48f8-9edf-cb6652652156");
-                _unspecifiedInfo = new RepoItemInfo(this, "Unspecified", "listitem[@text='Unspecified']", 30000, null, "1075d720-f30b-43cd-8cf3-cd4d1108dc26");
                 _controlInfo = new RepoItemInfo(this, "Control", "listitem[@text='Control']", 30000, null, "bb0c493b-2795-4996-962d-b4c26532c739");
                 _unknownInfo = new RepoItemInfo(this, "Unknown", "listitem[@text='Unknown']", 30000, null, "66910771-5fbb-4252-a1e6-38b3d19207cb");
                 _blankInfo = new RepoItemInfo(this, "Blank", "listitem[@text='Blank']", 30000, null, "fa7ccd21-04c2-4827-9afd-da1d2f7a7363");
                 _normalizerInfo = new RepoItemInfo(this, "Normalizer", "listitem[@text='Normalizer']", 30000, null, "02591b80-6882-4472-80d0-22b9eb060909");
                 _spikeInfo = new RepoItemInfo(this, "Spike", "listitem[@text='Spike']", 30000, null, "f20c8e35-06ed-4763-8048-e8bc30fdb1c3");
                 _calibratorInfo = new RepoItemInfo(this, "Calibrator", "listitem[@text='Calibrator']", 30000, null, "b3f20b5b-91bc-4ea9-a487-7cdffde78ce2");
-                _somegripInfo = new RepoItemInfo(this, "SomeGrip", "element[@automationid='ColorEdit']//slider[@automationid='PART_Track']/grip", 30000, null, "37ed4e25-b8f4-4a4f-808e-14b09f5eae7d");
-                _somebuttonInfo = new RepoItemInfo(this, "SomeButton", "element[@automationid='ColorEdit']//slider[@automationid='PART_Track']/button[1]", 30000, null, "e3b50243-3def-4bfc-b7a0-e5b55cf781ad");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "element[@automationid='ColorEdit']/container/container[1]", 30000, null, "56229103-2e9b-489c-b6ae-f3bff586647e");
-                _someelementInfo = new RepoItemInfo(this, "SomeElement", "element[@automationid='ColorEdit']/container/container[1]/container[3]/element", 30000, null, "db1197ee-ca3a-4f4b-a6f8-0cf6dc75d736");
+                _someelementInfo = new RepoItemInfo(this, "SomeElement", "element[@automationid='ColorEdit']/container/container[3]/text[5]/element[2]", 30000, null, "252a9525-c51b-40a3-b635-0aa66de2ef89");
+                _someelement1Info = new RepoItemInfo(this, "SomeElement1", "element[@automationid='ColorEdit']/container/container[3]/text[6]/element[2]", 30000, null, "9636edde-a658-4c9d-b371-d1c101d3d508");
+                _someelement3Info = new RepoItemInfo(this, "SomeElement3", "element[@automationid='ColorEdit']/container/container[3]/text[7]/element[2]", 30000, null, "d3dd4bc5-bd43-4b24-86c8-601b06d3b025");
+                _partcolorstringeditorInfo = new RepoItemInfo(this, "PARTColorStringEditor", "element[@automationid='ColorEdit']//text[@automationid='PART_ColorStringEditor']", 30000, null, "8812fde9-993d-4016-b7a2-521d4e4457b3");
             }
 
             /// <summary>
@@ -2744,30 +2697,6 @@ namespace MyAssaysApp
                 get
                 {
                     return _systemdefaultInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Unspecified item.
-            /// </summary>
-            [RepositoryItem("1075d720-f30b-43cd-8cf3-cd4d1108dc26")]
-            public virtual Ranorex.ListItem Unspecified
-            {
-                get
-                {
-                    return _unspecifiedInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Unspecified item info.
-            /// </summary>
-            [RepositoryItemInfo("1075d720-f30b-43cd-8cf3-cd4d1108dc26")]
-            public virtual RepoItemInfo UnspecifiedInfo
-            {
-                get
-                {
-                    return _unspecifiedInfo;
                 }
             }
 
@@ -2916,81 +2845,9 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The SomeGrip item.
-            /// </summary>
-            [RepositoryItem("37ed4e25-b8f4-4a4f-808e-14b09f5eae7d")]
-            public virtual Ranorex.Grip SomeGrip
-            {
-                get
-                {
-                    return _somegripInfo.CreateAdapter<Ranorex.Grip>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeGrip item info.
-            /// </summary>
-            [RepositoryItemInfo("37ed4e25-b8f4-4a4f-808e-14b09f5eae7d")]
-            public virtual RepoItemInfo SomeGripInfo
-            {
-                get
-                {
-                    return _somegripInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeButton item.
-            /// </summary>
-            [RepositoryItem("e3b50243-3def-4bfc-b7a0-e5b55cf781ad")]
-            public virtual Ranorex.Button SomeButton
-            {
-                get
-                {
-                    return _somebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeButton item info.
-            /// </summary>
-            [RepositoryItemInfo("e3b50243-3def-4bfc-b7a0-e5b55cf781ad")]
-            public virtual RepoItemInfo SomeButtonInfo
-            {
-                get
-                {
-                    return _somebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item.
-            /// </summary>
-            [RepositoryItem("56229103-2e9b-489c-b6ae-f3bff586647e")]
-            public virtual Ranorex.Container SomeContainer
-            {
-                get
-                {
-                    return _somecontainerInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item info.
-            /// </summary>
-            [RepositoryItemInfo("56229103-2e9b-489c-b6ae-f3bff586647e")]
-            public virtual RepoItemInfo SomeContainerInfo
-            {
-                get
-                {
-                    return _somecontainerInfo;
-                }
-            }
-
-            /// <summary>
             /// The SomeElement item.
             /// </summary>
-            [RepositoryItem("db1197ee-ca3a-4f4b-a6f8-0cf6dc75d736")]
+            [RepositoryItem("252a9525-c51b-40a3-b635-0aa66de2ef89")]
             public virtual Ranorex.Unknown SomeElement
             {
                 get
@@ -3002,12 +2859,84 @@ namespace MyAssaysApp
             /// <summary>
             /// The SomeElement item info.
             /// </summary>
-            [RepositoryItemInfo("db1197ee-ca3a-4f4b-a6f8-0cf6dc75d736")]
+            [RepositoryItemInfo("252a9525-c51b-40a3-b635-0aa66de2ef89")]
             public virtual RepoItemInfo SomeElementInfo
             {
                 get
                 {
                     return _someelementInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeElement1 item.
+            /// </summary>
+            [RepositoryItem("9636edde-a658-4c9d-b371-d1c101d3d508")]
+            public virtual Ranorex.Unknown SomeElement1
+            {
+                get
+                {
+                    return _someelement1Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeElement1 item info.
+            /// </summary>
+            [RepositoryItemInfo("9636edde-a658-4c9d-b371-d1c101d3d508")]
+            public virtual RepoItemInfo SomeElement1Info
+            {
+                get
+                {
+                    return _someelement1Info;
+                }
+            }
+
+            /// <summary>
+            /// The SomeElement3 item.
+            /// </summary>
+            [RepositoryItem("d3dd4bc5-bd43-4b24-86c8-601b06d3b025")]
+            public virtual Ranorex.Unknown SomeElement3
+            {
+                get
+                {
+                    return _someelement3Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeElement3 item info.
+            /// </summary>
+            [RepositoryItemInfo("d3dd4bc5-bd43-4b24-86c8-601b06d3b025")]
+            public virtual RepoItemInfo SomeElement3Info
+            {
+                get
+                {
+                    return _someelement3Info;
+                }
+            }
+
+            /// <summary>
+            /// The PARTColorStringEditor item.
+            /// </summary>
+            [RepositoryItem("8812fde9-993d-4016-b7a2-521d4e4457b3")]
+            public virtual Ranorex.Text PARTColorStringEditor
+            {
+                get
+                {
+                    return _partcolorstringeditorInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PARTColorStringEditor item info.
+            /// </summary>
+            [RepositoryItemInfo("8812fde9-993d-4016-b7a2-521d4e4457b3")]
+            public virtual RepoItemInfo PARTColorStringEditorInfo
+            {
+                get
+                {
+                    return _partcolorstringeditorInfo;
                 }
             }
         }
@@ -3073,7 +3002,6 @@ namespace MyAssaysApp
             RepoItemInfo _cancelInfo;
             RepoItemInfo _buttonokInfo;
             RepoItemInfo _someradiobuttonInfo;
-            RepoItemInfo _someradiobutton1Info;
             RepoItemInfo _folderInfo;
             RepoItemInfo _filenameInfo;
             RepoItemInfo _testsettingswhenokisclickedInfo;
@@ -3082,7 +3010,6 @@ namespace MyAssaysApp
             RepoItemInfo _browseInfo;
             RepoItemInfo _manageInfo;
             RepoItemInfo _manage1Info;
-            RepoItemInfo _optionmarkInfo;
             RepoItemInfo _someradiobutton2Info;
 
             /// <summary>
@@ -3095,7 +3022,6 @@ namespace MyAssaysApp
                 _cancelInfo = new RepoItemInfo(this, "Cancel", "?/?/button[@text='Cancel' and @visible='True' and @enabled='True']", 30000, null, "532768d9-2b77-4b37-8dbd-35d16a3bc7eb");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "?/?/button[@text='OK']", 30000, null, "f27e3734-3ae4-4910-878b-66b11bf3604f");
                 _someradiobuttonInfo = new RepoItemInfo(this, "SomeRadioButton", "container[1]/container/container[1]/radiobutton[@checked='True']", 30000, null, "65930155-160a-42a8-a4f1-891a5bb966db");
-                _someradiobutton1Info = new RepoItemInfo(this, "SomeRadioButton1", "container[1]/container/container[1]/radiobutton[@checked='True' and @type='RadioButton']", 30000, null, "60f23ff6-bdcb-4bbe-a22a-90f179566f47");
                 _folderInfo = new RepoItemInfo(this, "Folder", "container[1]/container/container[2]/?/?/text[@caption='Folder:' and @visible='True']", 30000, null, "451bfbb2-b7be-4d35-a03b-fa68e0337242");
                 _filenameInfo = new RepoItemInfo(this, "Filename", "container[1]/container/container[2]/?/?/text[@caption='Filename:' and @visible='True']", 30000, null, "33088496-c06c-4958-b6dd-b5dc8b7c4e44");
                 _testsettingswhenokisclickedInfo = new RepoItemInfo(this, "TestSettingsWhenOKIsClicked", "container[1]/container/container[2]/checkbox[@text~'^Test\\ settings\\ when\\ OK\\ is\\ ' and @enabled='True' and @checked='True']", 30000, null, "96294814-d9a7-4f81-bf74-806491683445");
@@ -3104,7 +3030,6 @@ namespace MyAssaysApp
                 _browseInfo = new RepoItemInfo(this, "Browse", "container[1]/container/container[2]/?/?/button[@text='Browse...' and @visible='True' and @enabled='True']", 30000, null, "85813f83-86c7-4c6c-b3ae-8f6e9b85237d");
                 _manageInfo = new RepoItemInfo(this, "Manage", "container[1]/container/container[2]/container/button[3]", 30000, null, "ec0b45a9-8c39-4b0e-b321-a9d9358dc33c");
                 _manage1Info = new RepoItemInfo(this, "Manage1", "container[1]/container/container[2]/container/button[2]", 30000, null, "3d04072f-3625-455a-8070-10d686c9f2ce");
-                _optionmarkInfo = new RepoItemInfo(this, "OptionMark", "container[1]/container/container[1]/radiobutton[2]/element[@automationid='optionMark']", 30000, null, "cc7a671a-f5f3-470c-9032-cfeb4bc7356a");
                 _someradiobutton2Info = new RepoItemInfo(this, "SomeRadioButton2", "container[1]/container/container[1]/radiobutton[2]", 30000, null, "4466c5f7-aead-41be-9d7b-548fd546230e");
             }
 
@@ -3225,30 +3150,6 @@ namespace MyAssaysApp
                 get
                 {
                     return _someradiobuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeRadioButton1 item.
-            /// </summary>
-            [RepositoryItem("60f23ff6-bdcb-4bbe-a22a-90f179566f47")]
-            public virtual Ranorex.RadioButton SomeRadioButton1
-            {
-                get
-                {
-                    return _someradiobutton1Info.CreateAdapter<Ranorex.RadioButton>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeRadioButton1 item info.
-            /// </summary>
-            [RepositoryItemInfo("60f23ff6-bdcb-4bbe-a22a-90f179566f47")]
-            public virtual RepoItemInfo SomeRadioButton1Info
-            {
-                get
-                {
-                    return _someradiobutton1Info;
                 }
             }
 
@@ -3445,30 +3346,6 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The OptionMark item.
-            /// </summary>
-            [RepositoryItem("cc7a671a-f5f3-470c-9032-cfeb4bc7356a")]
-            public virtual Ranorex.Unknown OptionMark
-            {
-                get
-                {
-                    return _optionmarkInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The OptionMark item info.
-            /// </summary>
-            [RepositoryItemInfo("cc7a671a-f5f3-470c-9032-cfeb4bc7356a")]
-            public virtual RepoItemInfo OptionMarkInfo
-            {
-                get
-                {
-                    return _optionmarkInfo;
-                }
-            }
-
-            /// <summary>
             /// The SomeRadioButton2 item.
             /// </summary>
             [RepositoryItem("4466c5f7-aead-41be-9d7b-548fd546230e")]
@@ -3494,487 +3371,13 @@ namespace MyAssaysApp
         }
 
         /// <summary>
-        /// The MacrosEditorAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("8dc48d57-4d5f-44ee-af7c-c3022ee747cc")]
-        public partial class MacrosEditorAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _closeInfo;
-
-            /// <summary>
-            /// Creates a new MacrosEditor  folder.
-            /// </summary>
-            public MacrosEditorAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("MacrosEditor", "/form[@wpfnative='True' and @name='MacrosEditor']", parentFolder, 30000, null, true, "8dc48d57-4d5f-44ee-af7c-c3022ee747cc", "")
-            {
-                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Close']", 30000, null, "c7b6b38d-4216-45c4-ab1a-4206a89229ec");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("8dc48d57-4d5f-44ee-af7c-c3022ee747cc")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("8dc48d57-4d5f-44ee-af7c-c3022ee747cc")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Close item.
-            /// </summary>
-            [RepositoryItem("c7b6b38d-4216-45c4-ab1a-4206a89229ec")]
-            public virtual Ranorex.Button Close
-            {
-                get
-                {
-                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Close item info.
-            /// </summary>
-            [RepositoryItemInfo("c7b6b38d-4216-45c4-ab1a-4206a89229ec")]
-            public virtual RepoItemInfo CloseInfo
-            {
-                get
-                {
-                    return _closeInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ProtocolMyEndpointRacksOf10ProtAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("15d909dd-e1a6-4dc0-8c79-df9a7cc0403b")]
-        public partial class ProtocolMyEndpointRacksOf10ProtAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _stackInfo;
-            RepoItemInfo _rightblurrectInfo;
-            RepoItemInfo _ribbonInfo;
-            RepoItemInfo _somecontainerInfo;
-
-            /// <summary>
-            /// Creates a new ProtocolMyEndpointRacksOf10Prot  folder.
-            /// </summary>
-            public ProtocolMyEndpointRacksOf10ProtAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ProtocolMyEndpointRacksOf10Prot", "/form[@wpfnative='True' and @title~'^Protocol:\\ My\\ Endpoint\\ \\(Ra' and @processname='MyAssays.Desktop.Analysis']", parentFolder, 30000, null, true, "15d909dd-e1a6-4dc0-8c79-df9a7cc0403b", "")
-            {
-                _stackInfo = new RepoItemInfo(this, "Stack", "../container[@automationid='GlassActive']/container[@automationid='stack']", 30000, null, "4b773bac-4d8b-47c2-9e7d-aa91084861c5");
-                _rightblurrectInfo = new RepoItemInfo(this, "RightBlurRect", ".//container[@automationid='GlassActive']/element[@automationid='RightBlurRect']", 30000, null, "487afa5c-3671-4095-87d9-d26499698997");
-                _ribbonInfo = new RepoItemInfo(this, "Ribbon", "container/container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']", 30000, null, "d4bc34a1-c5b0-4c1d-8220-6f63b7aac68f");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", ".//element[@automationid='BackStageContent']/list/element[@automationid='ExitButton']/?", 30000, null, "a687959a-5a0d-4bde-bf3f-65c45520bdc0");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("15d909dd-e1a6-4dc0-8c79-df9a7cc0403b")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("15d909dd-e1a6-4dc0-8c79-df9a7cc0403b")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Stack item.
-            /// </summary>
-            [RepositoryItem("4b773bac-4d8b-47c2-9e7d-aa91084861c5")]
-            public virtual Ranorex.Container Stack
-            {
-                get
-                {
-                    return _stackInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Stack item info.
-            /// </summary>
-            [RepositoryItemInfo("4b773bac-4d8b-47c2-9e7d-aa91084861c5")]
-            public virtual RepoItemInfo StackInfo
-            {
-                get
-                {
-                    return _stackInfo;
-                }
-            }
-
-            /// <summary>
-            /// The RightBlurRect item.
-            /// </summary>
-            [RepositoryItem("487afa5c-3671-4095-87d9-d26499698997")]
-            public virtual Ranorex.Unknown RightBlurRect
-            {
-                get
-                {
-                    return _rightblurrectInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The RightBlurRect item info.
-            /// </summary>
-            [RepositoryItemInfo("487afa5c-3671-4095-87d9-d26499698997")]
-            public virtual RepoItemInfo RightBlurRectInfo
-            {
-                get
-                {
-                    return _rightblurrectInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Ribbon item.
-            /// </summary>
-            [RepositoryItem("d4bc34a1-c5b0-4c1d-8220-6f63b7aac68f")]
-            public virtual Ranorex.List Ribbon
-            {
-                get
-                {
-                    return _ribbonInfo.CreateAdapter<Ranorex.List>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Ribbon item info.
-            /// </summary>
-            [RepositoryItemInfo("d4bc34a1-c5b0-4c1d-8220-6f63b7aac68f")]
-            public virtual RepoItemInfo RibbonInfo
-            {
-                get
-                {
-                    return _ribbonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item.
-            /// </summary>
-            [RepositoryItem("a687959a-5a0d-4bde-bf3f-65c45520bdc0")]
-            public virtual Ranorex.Unknown SomeContainer
-            {
-                get
-                {
-                    return _somecontainerInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer item info.
-            /// </summary>
-            [RepositoryItemInfo("a687959a-5a0d-4bde-bf3f-65c45520bdc0")]
-            public virtual RepoItemInfo SomeContainerInfo
-            {
-                get
-                {
-                    return _somecontainerInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ExplorerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("f4126749-c8ac-4e8b-8f38-bd5a43edda6b")]
-        public partial class ExplorerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _myassaysdesktopexplorer1runningwiInfo;
-
-            /// <summary>
-            /// Creates a new Explorer  folder.
-            /// </summary>
-            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "f4126749-c8ac-4e8b-8f38-bd5a43edda6b", "")
-            {
-                _myassaysdesktopexplorer1runningwiInfo = new RepoItemInfo(this, "MyAssaysDesktopExplorer1RunningWi", "container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^MyAssays\\ Desktop\\ Explorer']", 30000, null, "6a9c5857-b97e-4ff3-a54c-e2f89e2eae3d");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("f4126749-c8ac-4e8b-8f38-bd5a43edda6b")]
-            public virtual Ranorex.MenuBar Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("f4126749-c8ac-4e8b-8f38-bd5a43edda6b")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The MyAssaysDesktopExplorer1RunningWi item.
-            /// </summary>
-            [RepositoryItem("6a9c5857-b97e-4ff3-a54c-e2f89e2eae3d")]
-            public virtual Ranorex.Button MyAssaysDesktopExplorer1RunningWi
-            {
-                get
-                {
-                    return _myassaysdesktopexplorer1runningwiInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MyAssaysDesktopExplorer1RunningWi item info.
-            /// </summary>
-            [RepositoryItemInfo("6a9c5857-b97e-4ff3-a54c-e2f89e2eae3d")]
-            public virtual RepoItemInfo MyAssaysDesktopExplorer1RunningWiInfo
-            {
-                get
-                {
-                    return _myassaysdesktopexplorer1runningwiInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ProtocolMyEndpoint12x8Protocol2AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("f857b106-0aaf-4710-bed7-eaf34be8d9c9")]
-        public partial class ProtocolMyEndpoint12x8Protocol2AppFolder : RepoGenBaseFolder
-        {
-            MyAssaysAppRepositoryFolders.SomeContainerFolder3 _somecontainer;
-            RepoItemInfo _blurrectInfo;
-
-            /// <summary>
-            /// Creates a new ProtocolMyEndpoint12x8Protocol2  folder.
-            /// </summary>
-            public ProtocolMyEndpoint12x8Protocol2AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ProtocolMyEndpoint12x8Protocol2", "/form[@wpfnative='True' and @title~'^Protocol:\\ My\\ Endpoint\\ 12x' and @processname='MyAssays.Desktop.Analysis']", parentFolder, 30000, null, true, "f857b106-0aaf-4710-bed7-eaf34be8d9c9", "")
-            {
-                _somecontainer = new MyAssaysAppRepositoryFolders.SomeContainerFolder3(this);
-                _blurrectInfo = new RepoItemInfo(this, "BlurRect", ".//container[@automationid='GlassActive']/element[@automationid='BlurRect']", 30000, null, "2bafd825-d97a-4f08-816d-33dbb7dc2efe");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("f857b106-0aaf-4710-bed7-eaf34be8d9c9")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("f857b106-0aaf-4710-bed7-eaf34be8d9c9")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The BlurRect item.
-            /// </summary>
-            [RepositoryItem("2bafd825-d97a-4f08-816d-33dbb7dc2efe")]
-            public virtual Ranorex.Unknown BlurRect
-            {
-                get
-                {
-                    return _blurrectInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The BlurRect item info.
-            /// </summary>
-            [RepositoryItemInfo("2bafd825-d97a-4f08-816d-33dbb7dc2efe")]
-            public virtual RepoItemInfo BlurRectInfo
-            {
-                get
-                {
-                    return _blurrectInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeContainer folder.
-            /// </summary>
-            [RepositoryFolder("98ba8d51-534c-4791-902b-80067d6556ef")]
-            public virtual MyAssaysAppRepositoryFolders.SomeContainerFolder3 SomeContainer
-            {
-                get { return _somecontainer; }
-            }
-        }
-
-        /// <summary>
-        /// The SomeContainerFolder3 folder.
-        /// </summary>
-        [RepositoryFolder("98ba8d51-534c-4791-902b-80067d6556ef")]
-        public partial class SomeContainerFolder3 : RepoGenBaseFolder
-        {
-            RepoItemInfo _iconimageInfo;
-            RepoItemInfo _controllabelInfo;
-            RepoItemInfo _ribbonInfo;
-
-            /// <summary>
-            /// Creates a new SomeContainer  folder.
-            /// </summary>
-            public SomeContainerFolder3(RepoGenBaseFolder parentFolder) :
-                    base("SomeContainer", "container", parentFolder, 30000, null, false, "98ba8d51-534c-4791-902b-80067d6556ef", "")
-            {
-                _iconimageInfo = new RepoItemInfo(this, "IconImage", ".//element[@automationid='BackStageContent']/list/element[@automationid='ExitButton']//picture[@automationid='iconImage']", 30000, null, "e710962c-ec9d-4072-9313-944a8f18b6dc");
-                _controllabelInfo = new RepoItemInfo(this, "ControlLabel", ".//element[@automationid='BackStageContent']/list/element[@automationid='ExitButton']//text[@automationid='controlLabel']", 30000, null, "17c7f219-d57c-4b21-ab00-e993b998ee21");
-                _ribbonInfo = new RepoItemInfo(this, "Ribbon", "container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']", 30000, null, "edb7be9f-e18f-4397-bc94-1de586c045e7");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("98ba8d51-534c-4791-902b-80067d6556ef")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("98ba8d51-534c-4791-902b-80067d6556ef")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The IconImage item.
-            /// </summary>
-            [RepositoryItem("e710962c-ec9d-4072-9313-944a8f18b6dc")]
-            public virtual Ranorex.Picture IconImage
-            {
-                get
-                {
-                    return _iconimageInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The IconImage item info.
-            /// </summary>
-            [RepositoryItemInfo("e710962c-ec9d-4072-9313-944a8f18b6dc")]
-            public virtual RepoItemInfo IconImageInfo
-            {
-                get
-                {
-                    return _iconimageInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ControlLabel item.
-            /// </summary>
-            [RepositoryItem("17c7f219-d57c-4b21-ab00-e993b998ee21")]
-            public virtual Ranorex.Text ControlLabel
-            {
-                get
-                {
-                    return _controllabelInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ControlLabel item info.
-            /// </summary>
-            [RepositoryItemInfo("17c7f219-d57c-4b21-ab00-e993b998ee21")]
-            public virtual RepoItemInfo ControlLabelInfo
-            {
-                get
-                {
-                    return _controllabelInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Ribbon item.
-            /// </summary>
-            [RepositoryItem("edb7be9f-e18f-4397-bc94-1de586c045e7")]
-            public virtual Ranorex.List Ribbon
-            {
-                get
-                {
-                    return _ribbonInfo.CreateAdapter<Ranorex.List>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Ribbon item info.
-            /// </summary>
-            [RepositoryItemInfo("edb7be9f-e18f-4397-bc94-1de586c045e7")]
-            public virtual RepoItemInfo RibbonInfo
-            {
-                get
-                {
-                    return _ribbonInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The SampleTypesEditorAppFolder folder.
         /// </summary>
         [RepositoryFolder("031c7ed0-8110-4118-9d55-c0144212dfb2")]
         public partial class SampleTypesEditorAppFolder : RepoGenBaseFolder
         {
-            MyAssaysAppRepositoryFolders.SomeContainerFolder4 _somecontainer;
+            MyAssaysAppRepositoryFolders.SomeContainerFolder3 _somecontainer;
             MyAssaysAppRepositoryFolders.SomeContainer1Folder _somecontainer1;
-            RepoItemInfo _partlinedownbuttonInfo;
-            RepoItemInfo _somebuttonInfo;
-            RepoItemInfo _togglebuttonInfo;
 
             /// <summary>
             /// Creates a new SampleTypesEditor  folder.
@@ -3982,11 +3385,8 @@ namespace MyAssaysApp
             public SampleTypesEditorAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SampleTypesEditor", "/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']", parentFolder, 30000, null, true, "031c7ed0-8110-4118-9d55-c0144212dfb2", "")
             {
-                _somecontainer = new MyAssaysAppRepositoryFolders.SomeContainerFolder4(this);
+                _somecontainer = new MyAssaysAppRepositoryFolders.SomeContainerFolder3(this);
                 _somecontainer1 = new MyAssaysAppRepositoryFolders.SomeContainer1Folder(this);
-                _partlinedownbuttonInfo = new RepoItemInfo(this, "PARTLineDownButton", "container/container[1]/container/scrollbar[@automationid='VerticalScrollBar']/button[@automationid='PART_LineDownButton']", 30000, null, "9fa82448-66ca-4f8d-bb22-9c1c53408e0d");
-                _somebuttonInfo = new RepoItemInfo(this, "SomeButton", ".//scrollbar[@automationid='VerticalScrollBar']/slider[@automationid='PART_Track']/button[2]", 30000, null, "d7173ddf-8373-45f3-82ad-47b2f50008d1");
-                _togglebuttonInfo = new RepoItemInfo(this, "ToggleButton", ".//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']", 30000, null, "72eadab2-391b-4d7e-8e09-58ac9437c2b4");
             }
 
             /// <summary>
@@ -4014,82 +3414,10 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The PARTLineDownButton item.
-            /// </summary>
-            [RepositoryItem("9fa82448-66ca-4f8d-bb22-9c1c53408e0d")]
-            public virtual Ranorex.Button PARTLineDownButton
-            {
-                get
-                {
-                    return _partlinedownbuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PARTLineDownButton item info.
-            /// </summary>
-            [RepositoryItemInfo("9fa82448-66ca-4f8d-bb22-9c1c53408e0d")]
-            public virtual RepoItemInfo PARTLineDownButtonInfo
-            {
-                get
-                {
-                    return _partlinedownbuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeButton item.
-            /// </summary>
-            [RepositoryItem("d7173ddf-8373-45f3-82ad-47b2f50008d1")]
-            public virtual Ranorex.Button SomeButton
-            {
-                get
-                {
-                    return _somebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeButton item info.
-            /// </summary>
-            [RepositoryItemInfo("d7173ddf-8373-45f3-82ad-47b2f50008d1")]
-            public virtual RepoItemInfo SomeButtonInfo
-            {
-                get
-                {
-                    return _somebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item.
-            /// </summary>
-            [RepositoryItem("72eadab2-391b-4d7e-8e09-58ac9437c2b4")]
-            public virtual Ranorex.CheckBox ToggleButton
-            {
-                get
-                {
-                    return _togglebuttonInfo.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("72eadab2-391b-4d7e-8e09-58ac9437c2b4")]
-            public virtual RepoItemInfo ToggleButtonInfo
-            {
-                get
-                {
-                    return _togglebuttonInfo;
-                }
-            }
-
-            /// <summary>
             /// The SomeContainer folder.
             /// </summary>
             [RepositoryFolder("23d80eac-365b-4163-a405-14374ed8538b")]
-            public virtual MyAssaysAppRepositoryFolders.SomeContainerFolder4 SomeContainer
+            public virtual MyAssaysAppRepositoryFolders.SomeContainerFolder3 SomeContainer
             {
                 get { return _somecontainer; }
             }
@@ -4105,26 +3433,24 @@ namespace MyAssaysApp
         }
 
         /// <summary>
-        /// The SomeContainerFolder4 folder.
+        /// The SomeContainerFolder3 folder.
         /// </summary>
         [RepositoryFolder("23d80eac-365b-4163-a405-14374ed8538b")]
-        public partial class SomeContainerFolder4 : RepoGenBaseFolder
+        public partial class SomeContainerFolder3 : RepoGenBaseFolder
         {
             RepoItemInfo _addsampletypeInfo;
-            RepoItemInfo _someelementInfo;
-            RepoItemInfo _editthesampletypesusedinyourassayInfo;
             RepoItemInfo _somecontainerInfo;
+            RepoItemInfo _buttonokInfo;
 
             /// <summary>
             /// Creates a new SomeContainer  folder.
             /// </summary>
-            public SomeContainerFolder4(RepoGenBaseFolder parentFolder) :
+            public SomeContainerFolder3(RepoGenBaseFolder parentFolder) :
                     base("SomeContainer", "container", parentFolder, 30000, null, false, "23d80eac-365b-4163-a405-14374ed8538b", "")
             {
                 _addsampletypeInfo = new RepoItemInfo(this, "AddSampleType", "?/?/button[@text='Add Sample Type']", 30000, null, "8d722f4f-64d6-4d72-b4b9-a32a3be0744e");
-                _someelementInfo = new RepoItemInfo(this, "SomeElement", "?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[1]/text/element[2]", 30000, null, "c9c03daa-8463-4be1-8939-065f456c8788");
-                _editthesampletypesusedinyourassayInfo = new RepoItemInfo(this, "EditTheSampleTypesUsedInYourAssay", "?/?/text[@caption~'^Edit\\ the\\ sample\\ types\\ use']", 30000, null, "6acec0e0-96d9-4c73-8f5c-e32dec376163");
                 _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container", 30000, null, "7eeb8b64-8e0f-4e56-8013-4a29ca41e35f");
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "?/?/button[@text='OK' and @visible='True' and @enabled='True']", 30000, null, "49a59b95-27e6-411d-a1b8-06d39a8dca74");
             }
 
             /// <summary>
@@ -4176,54 +3502,6 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The SomeElement item.
-            /// </summary>
-            [RepositoryItem("c9c03daa-8463-4be1-8939-065f456c8788")]
-            public virtual Ranorex.Unknown SomeElement
-            {
-                get
-                {
-                    return _someelementInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeElement item info.
-            /// </summary>
-            [RepositoryItemInfo("c9c03daa-8463-4be1-8939-065f456c8788")]
-            public virtual RepoItemInfo SomeElementInfo
-            {
-                get
-                {
-                    return _someelementInfo;
-                }
-            }
-
-            /// <summary>
-            /// The EditTheSampleTypesUsedInYourAssay item.
-            /// </summary>
-            [RepositoryItem("6acec0e0-96d9-4c73-8f5c-e32dec376163")]
-            public virtual Ranorex.Text EditTheSampleTypesUsedInYourAssay
-            {
-                get
-                {
-                    return _editthesampletypesusedinyourassayInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The EditTheSampleTypesUsedInYourAssay item info.
-            /// </summary>
-            [RepositoryItemInfo("6acec0e0-96d9-4c73-8f5c-e32dec376163")]
-            public virtual RepoItemInfo EditTheSampleTypesUsedInYourAssayInfo
-            {
-                get
-                {
-                    return _editthesampletypesusedinyourassayInfo;
-                }
-            }
-
-            /// <summary>
             /// The SomeContainer item.
             /// </summary>
             [RepositoryItem("7eeb8b64-8e0f-4e56-8013-4a29ca41e35f")]
@@ -4246,6 +3524,30 @@ namespace MyAssaysApp
                     return _somecontainerInfo;
                 }
             }
+
+            /// <summary>
+            /// The ButtonOK item.
+            /// </summary>
+            [RepositoryItem("49a59b95-27e6-411d-a1b8-06d39a8dca74")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item info.
+            /// </summary>
+            [RepositoryItemInfo("49a59b95-27e6-411d-a1b8-06d39a8dca74")]
+            public virtual RepoItemInfo ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -4255,10 +3557,8 @@ namespace MyAssaysApp
         public partial class SomeContainer1Folder : RepoGenBaseFolder
         {
             RepoItemInfo _togglebutton1Info;
-            RepoItemInfo _somebutton1Info;
-            RepoItemInfo _arrowInfo;
-            RepoItemInfo _sampletype29Info;
-            RepoItemInfo _somepictureInfo;
+            RepoItemInfo _somebuttonInfo;
+            RepoItemInfo _someelementInfo;
 
             /// <summary>
             /// Creates a new SomeContainer1  folder.
@@ -4267,10 +3567,8 @@ namespace MyAssaysApp
                     base("SomeContainer1", ".//list[@automationid='SampleTypesSimplifiedView']/container/container[10]", parentFolder, 30000, null, false, "ba116101-6e66-4b3b-9f52-83b01eec0076", "")
             {
                 _togglebutton1Info = new RepoItemInfo(this, "ToggleButton1", "?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']", 30000, null, "7490c531-88c6-442f-916d-933a6a8195a7");
-                _somebutton1Info = new RepoItemInfo(this, "SomeButton1", "button", 30000, null, "204395f8-ef6a-452d-a6f0-6ceb7d4c745d");
-                _arrowInfo = new RepoItemInfo(this, "Arrow", "container/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']/element[@automationid='Arrow']", 30000, null, "e5e231e5-55c1-45a7-b623-404265f898c1");
-                _sampletype29Info = new RepoItemInfo(this, "SampleType29", "text[@caption='SampleType29' and @text='SampleType29']", 30000, null, "6f9e75f3-512b-49f0-9876-ac9104b70f80");
-                _somepictureInfo = new RepoItemInfo(this, "SomePicture", "button/picture", 30000, null, "63d4ee05-2282-4172-b705-c0313fbe12e7");
+                _somebuttonInfo = new RepoItemInfo(this, "SomeButton", "button[@clickmode='Release']", 30000, null, "16572ab8-b5b8-4f3f-b0ee-9524583997f0");
+                _someelementInfo = new RepoItemInfo(this, "SomeElement", "text/element[2]", 30000, null, "25cd7d7c-2008-4599-b47d-a8c750954735");
             }
 
             /// <summary>
@@ -4322,98 +3620,50 @@ namespace MyAssaysApp
             }
 
             /// <summary>
-            /// The SomeButton1 item.
+            /// The SomeButton item.
             /// </summary>
-            [RepositoryItem("204395f8-ef6a-452d-a6f0-6ceb7d4c745d")]
-            public virtual Ranorex.Button SomeButton1
+            [RepositoryItem("16572ab8-b5b8-4f3f-b0ee-9524583997f0")]
+            public virtual Ranorex.Button SomeButton
             {
                 get
                 {
-                    return _somebutton1Info.CreateAdapter<Ranorex.Button>(true);
+                    return _somebuttonInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The SomeButton1 item info.
+            /// The SomeButton item info.
             /// </summary>
-            [RepositoryItemInfo("204395f8-ef6a-452d-a6f0-6ceb7d4c745d")]
-            public virtual RepoItemInfo SomeButton1Info
+            [RepositoryItemInfo("16572ab8-b5b8-4f3f-b0ee-9524583997f0")]
+            public virtual RepoItemInfo SomeButtonInfo
             {
                 get
                 {
-                    return _somebutton1Info;
+                    return _somebuttonInfo;
                 }
             }
 
             /// <summary>
-            /// The Arrow item.
+            /// The SomeElement item.
             /// </summary>
-            [RepositoryItem("e5e231e5-55c1-45a7-b623-404265f898c1")]
-            public virtual Ranorex.Unknown Arrow
+            [RepositoryItem("25cd7d7c-2008-4599-b47d-a8c750954735")]
+            public virtual Ranorex.Unknown SomeElement
             {
                 get
                 {
-                    return _arrowInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _someelementInfo.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
             /// <summary>
-            /// The Arrow item info.
+            /// The SomeElement item info.
             /// </summary>
-            [RepositoryItemInfo("e5e231e5-55c1-45a7-b623-404265f898c1")]
-            public virtual RepoItemInfo ArrowInfo
+            [RepositoryItemInfo("25cd7d7c-2008-4599-b47d-a8c750954735")]
+            public virtual RepoItemInfo SomeElementInfo
             {
                 get
                 {
-                    return _arrowInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SampleType29 item.
-            /// </summary>
-            [RepositoryItem("6f9e75f3-512b-49f0-9876-ac9104b70f80")]
-            public virtual Ranorex.Text SampleType29
-            {
-                get
-                {
-                    return _sampletype29Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SampleType29 item info.
-            /// </summary>
-            [RepositoryItemInfo("6f9e75f3-512b-49f0-9876-ac9104b70f80")]
-            public virtual RepoItemInfo SampleType29Info
-            {
-                get
-                {
-                    return _sampletype29Info;
-                }
-            }
-
-            /// <summary>
-            /// The SomePicture item.
-            /// </summary>
-            [RepositoryItem("63d4ee05-2282-4172-b705-c0313fbe12e7")]
-            public virtual Ranorex.Picture SomePicture
-            {
-                get
-                {
-                    return _somepictureInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomePicture item info.
-            /// </summary>
-            [RepositoryItemInfo("63d4ee05-2282-4172-b705-c0313fbe12e7")]
-            public virtual RepoItemInfo SomePictureInfo
-            {
-                get
-                {
-                    return _somepictureInfo;
+                    return _someelementInfo;
                 }
             }
         }

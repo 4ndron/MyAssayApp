@@ -21,9 +21,19 @@ rxversion="6.1">
 			name="TestCase"
 			id="47bc63a8-e81b-4001-be49-13ce3fe8ca2b"/>
 			<testmodule
+			name="Endpoint_Absorbance_OD_"
+			id="499b5f15-993a-459e-bc73-5800283926b7"
+			ref="07867a42-07af-4ff7-a357-ce0553a04c36"
+			type="Recording"/>
+			<testmodule
 			name="DescriptionRackProtocol"
 			id="59d44d0d-119c-48fa-8a9b-f3c632fb2dc6"
 			ref="953784d0-38d7-4130-850c-209af87c4718"
+			type="Recording"/>
+			<testmodule
+			name="ManageTypes1"
+			id="5bb9176e-7123-43fa-8fd2-73c324fc3c82"
+			ref="af0a3d00-8257-4ec5-b6e4-e1647632253d"
 			type="Recording"/>
 			<testmodule
 			name="NewProtocol"
@@ -34,6 +44,11 @@ rxversion="6.1">
 			name="SampleTypes"
 			id="7da0399b-dc56-4f7d-be97-c91559f788d2"
 			ref="a9a16d6d-18c9-4b03-981f-b7d53a8149e4"
+			type="Recording"/>
+			<testmodule
+			name="Endpoin_Fluorescence_FLU_"
+			id="8382bb0a-ee28-4313-8f74-b873631cec11"
+			ref="ae766cd3-ec74-45dd-a6a9-3f246029c187"
 			type="Recording"/>
 			<testcase
 			name="EndpointAbsorbanceMicroplate(OD)"
@@ -65,6 +80,11 @@ rxversion="6.1">
 			name="FormatRack"
 			id="c45f81c3-bcc4-453e-a221-8d4b42da11ae"
 			ref="00dd5a80-6a5b-4f51-b655-cae7858b8f26"
+			type="Recording"/>
+			<testmodule
+			name="ManageTypes1"
+			id="c5297fda-2b33-4ced-99ad-afab1bfcbcae"
+			ref="af0a3d00-8257-4ec5-b6e4-e1647632253d"
 			type="Recording"/>
 			<testmodule
 			name="SamplesMicroArranged"
@@ -103,11 +123,17 @@ rxversion="6.1">
 						name="NewProtocol"
 						id="5d0d1d76-7ff9-45e9-a3b8-16e32e109a96"/>
 						<testmodule
+						name="Endpoint_Absorbance_OD_"
+						id="499b5f15-993a-459e-bc73-5800283926b7"/>
+						<testmodule
 						name="FormatRack"
 						id="c45f81c3-bcc4-453e-a221-8d4b42da11ae"/>
 						<testmodule
 						name="SampleTypes"
 						id="144c81b9-59e8-49fa-9ab1-b4f962b5cc59"/>
+						<testmodule
+						name="ManageTypes1"
+						id="5bb9176e-7123-43fa-8fd2-73c324fc3c82"/>
 						<testmodule
 						name="SamplesRackArranged"
 						id="ae7dcfc9-6696-45a9-b843-9f27b741f368"/>
@@ -125,11 +151,17 @@ rxversion="6.1">
 						name="NewProtocol"
 						id="91cc6a18-83dc-4af8-a920-76ebe5f42069"/>
 						<testmodule
+						name="Endpoin_Fluorescence_FLU_"
+						id="8382bb0a-ee28-4313-8f74-b873631cec11"/>
+						<testmodule
 						name="FormatMicroplate"
 						id="1ef09384-0c38-4391-9ded-9463f05d43a9"/>
 						<testmodule
 						name="SampleTypes"
 						id="7da0399b-dc56-4f7d-be97-c91559f788d2"/>
+						<testmodule
+						name="ManageTypes1"
+						id="c5297fda-2b33-4ced-99ad-afab1bfcbcae"/>
 						<testmodule
 						name="SamplesMicroArranged"
 						id="e7923224-5526-4186-b706-a156d042f3ec"/>
@@ -151,7 +183,12 @@ rxversion="6.1">
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
-		name="TestRun"/>
+		name="TestRun">
+			<testcase
+			id="26080d76-7565-4347-b254-b4e883ed4d64"/>
+			<testcase
+			id="8eacbb44-1531-4c20-b475-68d65f212534"/>
+		</testconfiguration>
 	</testconfigurations>
 	<references/>
 </testsuitedoc>

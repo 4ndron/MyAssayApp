@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="af0a3d00-8257-4ec5-b6e4-e1647632253d"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		ManageTypes1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ManageTypes1"
+	namespace="MyAssaysApp"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="MergedUserCodeMethod1"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="222d64c2-bf86-4e36-ae7f-8ab2f0e10e0e"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="MyAssaysAppRepository"
+	id="09813212-f69d-4080-a008-e84a288af1c2"
+	rxversion="6.1"
+	relativepath="MyAssaysAppRepository.rxrep">
+		<codegen
+		classname="MyAssaysAppRepository"
+		namespace="MyAssaysApp"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="6613575f-f649-4db2-a318-e99da9d20235"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ManageTypes1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

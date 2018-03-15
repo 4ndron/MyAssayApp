@@ -1,0 +1,980 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ead47aad2e19efe"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-TST0ERP"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="15.03.2018 15:39:40"
+		timestampiso="2018-03-15T13:39:40"
+		timeoutfactor="1"
+		module="ManageTypes">
+		<detail>
+			ManageTypes
+		</detail>
+		<errmsg>
+			Failed to move to location 'UpperCenter' within element '{Button:}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.714"
+			timeRelativeToTestModuleStartTime="00:00.715"
+			timeWallClock="15:39:41"
+			time="00:00.714"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.085"
+			timeRelativeToTestModuleStartTime="00:01.086"
+			timeWallClock="15:39:41"
+			time="00:01.085"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.Back' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/button[@text='Back' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Back"
+				id="9424b9ea58694b78b563bc52ad5f2fa7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.783"
+			timeRelativeToTestModuleStartTime="00:02.784"
+			timeWallClock="15:39:43"
+			time="00:02.783"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.AdvancedViewButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container[@visible='True' and @enabled='True']/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.AdvancedViewButton"
+				id="5b29d46bc3864f95af0476c08aabc9de"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.513"
+			timeRelativeToTestModuleStartTime="00:03.514"
+			timeWallClock="15:39:44"
+			time="00:03.513"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer.AddSampleType' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Add Sample Type']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.AddSampleType"
+				id="8d722f4f64d64d72b4b9a32a3be0744e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.457"
+			timeRelativeToTestModuleStartTime="00:04.458"
+			timeWallClock="15:39:45"
+			time="00:04.457"
+			level="Info"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\ManageTy_fde505ae_rxlog.jpg"><img src=".\ManageTy_fde505ae_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="98"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.461"
+			timeRelativeToTestModuleStartTime="00:04.462"
+			timeWallClock="15:39:45"
+			time="00:04.461"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'SampleTypesEditor.SomeContainer1.SampleType29'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='SampleType29' and @text='SampleType29']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SampleType29"
+				id="6f9e75f3512b49f09876ac9104b70f80"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="100"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.530"
+			timeRelativeToTestModuleStartTime="00:04.531"
+			timeWallClock="15:39:45"
+			time="00:04.530"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SampleType29' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='SampleType29' and @text='SampleType29']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SampleType29"
+				id="6f9e75f3512b49f09876ac9104b70f80"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.644"
+			timeRelativeToTestModuleStartTime="00:04.645"
+			timeWallClock="15:39:45"
+			time="00:04.644"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='SampleType29') on item 'SampleTypesEditor.SomeContainer1.SampleType29'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='SampleType29' and @text='SampleType29']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SampleType29"
+				id="6f9e75f3512b49f09876ac9104b70f80"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="104"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.708"
+			timeRelativeToTestModuleStartTime="00:04.709"
+			timeWallClock="15:39:45"
+			time="00:04.708"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SampleType29' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='SampleType29' and @text='SampleType29']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SampleType29"
+				id="6f9e75f3512b49f09876ac9104b70f80"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="105"
+				loglvl="Success"
+				itemindex="6"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.819"
+			timeRelativeToTestModuleStartTime="00:04.820"
+			timeWallClock="15:39:45"
+			time="00:04.819"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SampleTypesEditor.SomeContainer1.ToggleButton1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="108"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.897"
+			timeRelativeToTestModuleStartTime="00:04.898"
+			timeWallClock="15:39:45"
+			time="00:04.897"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="7"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.011"
+			timeRelativeToTestModuleStartTime="00:05.012"
+			timeWallClock="15:39:45"
+			time="00:05.011"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'SampleTypesEditor.SomeContainer1.ToggleButton1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.106"
+			timeRelativeToTestModuleStartTime="00:05.107"
+			timeWallClock="15:39:45"
+			time="00:05.106"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="8"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.223"
+			timeRelativeToTestModuleStartTime="00:05.224"
+			timeWallClock="15:39:45"
+			time="00:05.223"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='False') on item 'SampleTypesEditor.SomeContainer1.ToggleButton1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.300"
+			timeRelativeToTestModuleStartTime="00:05.301"
+			timeWallClock="15:39:45"
+			time="00:05.300"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="117"
+				loglvl="Success"
+				itemindex="9"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.416"
+			timeRelativeToTestModuleStartTime="00:05.417"
+			timeWallClock="15:39:46"
+			time="00:05.416"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SampleTypesEditor.SomeContainer.SomeContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer"
+				id="7eeb8b648e0f4e5680134a29ca41e35f"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.517"
+			timeRelativeToTestModuleStartTime="00:05.518"
+			timeWallClock="15:39:46"
+			time="00:05.517"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer"
+				id="7eeb8b648e0f4e5680134a29ca41e35f"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="121"
+				loglvl="Success"
+				itemindex="10"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.629"
+			timeRelativeToTestModuleStartTime="00:05.630"
+			timeWallClock="15:39:46"
+			time="00:05.629"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'SampleTypesEditor.SomeContainer.SomeContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer"
+				id="7eeb8b648e0f4e5680134a29ca41e35f"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="124"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.727"
+			timeRelativeToTestModuleStartTime="00:05.728"
+			timeWallClock="15:39:46"
+			time="00:05.727"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.SomeContainer"
+				id="7eeb8b648e0f4e5680134a29ca41e35f"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="125"
+				loglvl="Success"
+				itemindex="11"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.839"
+			timeRelativeToTestModuleStartTime="00:05.840"
+			timeWallClock="15:39:46"
+			time="00:05.839"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'SampleTypesEditor.SomeContainer1.SomeButton1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button/picture"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeButton1"
+				id="204395f8ef6a452da6f06ceb7d4c745d"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="128"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.887"
+			timeRelativeToTestModuleStartTime="00:05.888"
+			timeWallClock="15:39:46"
+			time="00:05.887"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeButton1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button/picture"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeButton1"
+				id="204395f8ef6a452da6f06ceb7d4c745d"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="129"
+				loglvl="Success"
+				itemindex="12"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.001"
+			timeRelativeToTestModuleStartTime="00:06.002"
+			timeWallClock="15:39:46"
+			time="00:06.001"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ToggleButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="132"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.746"
+			timeRelativeToTestModuleStartTime="00:06.747"
+			timeWallClock="15:39:47"
+			time="00:06.746"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Calibrator' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Calibrator']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Calibrator"
+				id="b3f20b5b91bc4ea9a4877cdffde78ce2"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="136"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.633"
+			timeRelativeToTestModuleStartTime="00:07.634"
+			timeWallClock="15:39:48"
+			time="00:07.633"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ToggleButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="140"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.389"
+			timeRelativeToTestModuleStartTime="00:08.390"
+			timeWallClock="15:39:49"
+			time="00:08.389"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Control' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Control']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Control"
+				id="bb0c493b27954996962db4c26532c739"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="144"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.250"
+			timeRelativeToTestModuleStartTime="00:09.251"
+			timeWallClock="15:39:49"
+			time="00:09.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ToggleButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="148"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.020"
+			timeRelativeToTestModuleStartTime="00:10.021"
+			timeWallClock="15:39:50"
+			time="00:10.020"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Unknown' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Unknown']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Unknown"
+				id="669107715fbb4252a1e638b3d19207cb"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="152"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.905"
+			timeRelativeToTestModuleStartTime="00:10.906"
+			timeWallClock="15:39:51"
+			time="00:10.905"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ToggleButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="156"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.654"
+			timeRelativeToTestModuleStartTime="00:11.655"
+			timeWallClock="15:39:52"
+			time="00:11.654"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Blank' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Blank']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Blank"
+				id="fa7ccd2104c248279afdda1d2f7a7363"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="160"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.531"
+			timeRelativeToTestModuleStartTime="00:12.532"
+			timeWallClock="15:39:53"
+			time="00:12.531"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SampleTypesEditor.SomeContainer1.ToggleButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="164"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.165"
+			timeRelativeToTestModuleStartTime="00:13.166"
+			timeWallClock="15:39:53"
+			time="00:13.165"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Normalizer' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Normalizer']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Normalizer"
+				id="02591b806882447280d022b9eb060909"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="169"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.071"
+			timeRelativeToTestModuleStartTime="00:14.072"
+			timeWallClock="15:39:54"
+			time="00:14.071"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ToggleButton1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.ToggleButton1"
+				id="7490c53188c6442f916d933a6a8195a7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="173"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.849"
+			timeRelativeToTestModuleStartTime="00:14.850"
+			timeWallClock="15:39:55"
+			time="00:14.849"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Spike' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Spike']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Spike"
+				id="f20c8e3506ed47638048e8bc30fdb1c3"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="177"
+				itemindex="24"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.734"
+			timeRelativeToTestModuleStartTime="00:15.735"
+			timeWallClock="15:39:56"
+			time="00:15.734"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'SampleTypesEditor.SomeContainer.Cancel'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Cancel' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.Cancel"
+				id="0cb4107b0cde4b3ea46fd88861130489"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="181"
+				itemindex="25"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.790"
+			timeRelativeToTestModuleStartTime="00:15.791"
+			timeWallClock="15:39:56"
+			time="00:15.790"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer.Cancel' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Cancel' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.Cancel"
+				id="0cb4107b0cde4b3ea46fd88861130489"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="182"
+				loglvl="Success"
+				itemindex="25"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.905"
+			timeRelativeToTestModuleStartTime="00:15.906"
+			timeWallClock="15:39:56"
+			time="00:15.905"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='OK') on item 'SampleTypesEditor.SomeContainer.ButtonOK'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.ButtonOK"
+				id="49a59b9527e6411da1b806d39a8dca74"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="185"
+				itemindex="26"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.960"
+			timeRelativeToTestModuleStartTime="00:15.961"
+			timeWallClock="15:39:56"
+			time="00:15.960"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.SampleTypesEditor.SomeContainer.ButtonOK' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.ButtonOK"
+				id="49a59b9527e6411da1b806d39a8dca74"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="186"
+				loglvl="Success"
+				itemindex="26"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.074"
+			timeRelativeToTestModuleStartTime="00:16.075"
+			timeWallClock="15:39:56"
+			time="00:16.074"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer.ButtonOK"
+				id="49a59b9527e6411da1b806d39a8dca74"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="189"
+				itemindex="27"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.620"
+			timeRelativeToTestModuleStartTime="00:16.621"
+			timeWallClock="15:39:57"
+			time="00:16.620"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox9'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeCheckBox9"
+				id="4ad4900c564744e280c966367f6a4806"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="193"
+				itemindex="28"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.696"
+			timeRelativeToTestModuleStartTime="00:16.697"
+			timeWallClock="15:39:57"
+			time="00:16.696"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeCheckBox9' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeCheckBox9"
+				id="4ad4900c564744e280c966367f6a4806"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="194"
+				loglvl="Success"
+				itemindex="28"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.809"
+			timeRelativeToTestModuleStartTime="00:16.810"
+			timeWallClock="15:39:57"
+			time="00:16.809"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox9'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeCheckBox9"
+				id="4ad4900c564744e280c966367f6a4806"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="197"
+				itemindex="29"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.877"
+			timeRelativeToTestModuleStartTime="00:16.878"
+			timeWallClock="15:39:57"
+			time="00:16.877"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'CheckState' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeCheckBox9' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[10]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeCheckBox9"
+				id="4ad4900c564744e280c966367f6a4806"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="198"
+				loglvl="Success"
+				itemindex="29"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.990"
+			timeRelativeToTestModuleStartTime="00:16.991"
+			timeWallClock="15:39:57"
+			time="00:16.990"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_7d6e7bbf_44a1f3c0_trace.jpg"
+			errthumb=".\ManageTy_7d6e7bbf_44a1f3c0_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.AdvancedViewButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container[@visible='True' and @enabled='True']/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.AdvancedViewButton"
+				id="5b29d46bc3864f95af0476c08aabc9de"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="201"
+				itemindex="30"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.696"
+			timeRelativeToTestModuleStartTime="00:17.697"
+			timeWallClock="15:39:58"
+			time="00:17.696"
+			level="Info"
+			category="Mouse"
+			errimg=".\ManageTy_7d6e7bbf_738fe497_trace.jpg"
+			errthumb=".\ManageTy_7d6e7bbf_738fe497_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeButton' at UpperCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeButton"
+				id="16572ab8b5b84f3fb0ee9524583997f0"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="205"
+				itemindex="31"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.789"
+			timeRelativeToTestModuleStartTime="00:17.790"
+			timeWallClock="15:39:58"
+			time="00:17.789"
+			level="Error"
+			category="Module"
+			errimg=".\ManageTy_7d6e7bbf_5b531816_trace.jpg"
+			errthumb=".\ManageTy_7d6e7bbf_5b531816_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'UpperCenter' within element '{Button:}'.<br/>The pointer cannot be moved to point '{X=-1073741825,Y=-214748366}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at MyAssaysApp.ManageTypes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs:line 206
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssayApp\MyAssaysApp\ManageTypes.cs"
+				codeline="206"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button"
+				fullname="MyAssaysAppRepository.SampleTypesEditor.SomeContainer1.SomeButton"
+				id="16572ab8b5b84f3fb0ee9524583997f0"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="31"/>
+		</item>
+	</activity>
+</report>
