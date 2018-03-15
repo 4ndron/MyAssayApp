@@ -1,2 +1,0 @@
-# RanorexAutomation
-MyAssaysApp
