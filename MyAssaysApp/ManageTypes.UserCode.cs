@@ -21,7 +21,7 @@ using Ranorex.Core.Testing;
 
 namespace MyAssaysApp
 {
-    public partial class ManagTypes
+    public partial class ManageTypes
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -128,15 +128,15 @@
       <UserCode>true</UserCode>
       <id>29e3df9d-c386-400c-82fe-1b278bb02d32</id>
     </Compile>
-    <Compile Include="ManagTypes.cs">
+    <Compile Include="ManageTypes.cs">
       <BoundTo>00092030-577f-4b9f-aeb5-f4ff6b817593</BoundTo>
-      <DependentUpon>ManagTypes.rxrec</DependentUpon>
+      <DependentUpon>ManageTypes.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>843d1668-704d-4271-ab62-9f4d96a79f19</id>
     </Compile>
-    <Compile Include="ManagTypes.UserCode.cs">
+    <Compile Include="ManageTypes.UserCode.cs">
       <BoundTo>00092030-577f-4b9f-aeb5-f4ff6b817593</BoundTo>
-      <DependentUpon>ManagTypes.rxrec</DependentUpon>
+      <DependentUpon>ManageTypes.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>29d116db-e75e-4895-9cc2-bede181b5ced</id>
     </Compile>
@@ -239,7 +239,7 @@
       <id>8da90b13-7368-4ef4-af06-a2719a6e02dd</id>
       <recordtableid>00dd5a80-6a5b-4f51-b655-cae7858b8f26</recordtableid>
     </None>
-    <None Include="ManagTypes.rxrec">
+    <None Include="ManageTypes.rxrec">
       <BoundTo>08b9d9e4-497f-4329-911b-8fe84e3f58cf</BoundTo>
       <id>00092030-577f-4b9f-aeb5-f4ff6b817593</id>
       <recordtableid>6fea5233-fc64-4207-bbae-f0f572f7233a</recordtableid>

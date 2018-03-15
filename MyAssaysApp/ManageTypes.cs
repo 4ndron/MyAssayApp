@@ -24,29 +24,29 @@ namespace MyAssaysApp
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ManagTypes recording.
+    ///The ManageTypes recording.
     /// </summary>
     [TestModule("6fea5233-fc64-4207-bbae-f0f572f7233a", ModuleType.Recording, 1)]
-    public partial class ManagTypes : ITestModule
+    public partial class ManageTypes : ITestModule
     {
         /// <summary>
         /// Holds an instance of the MyAssaysAppRepository repository.
         /// </summary>
         public static MyAssaysAppRepository repo = MyAssaysAppRepository.Instance;
 
-        static ManagTypes instance = new ManagTypes();
+        static ManageTypes instance = new ManageTypes();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ManagTypes()
+        public ManageTypes()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ManagTypes Instance
+        public static ManageTypes Instance
         {
             get { return instance; }
         }

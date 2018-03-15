@@ -5,7 +5,7 @@ id="6fea5233-fc64-4207-bbae-f0f572f7233a"
 embeddedrepository="False"
 mode="Desktop">
 	<name>
-		ManagTypes
+		ManageTypes
 	</name>
 	<repeatcount>
 		1
@@ -23,7 +23,7 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="ManagTypes"
+	classname="ManageTypes"
 	namespace="MyAssaysApp"/>
 	<variables/>
 	<recorditems>
@@ -12581,11 +12581,6 @@ t0NFFaEkE33x9KjJ4oopgaWj7UjmnKK7x427hkVPfzG9tnkmVN8eMMowaKKye52xS9mZtlEs95FE
 					description="The WPF System.Windows.Controls.Primitives.ToggleButton.HorizontalContentAlignment property of type HorizontalAlignment."
 					readonly="False"/>
 					<dynamicattribute
-					name="IsChecked"
-					type="System.Nullable`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsChecked property of type Nullable`1."
-					readonly="False"/>
-					<dynamicattribute
 					name="IsHitTestVisible"
 					type="System.Boolean"
 					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsHitTestVisible property of type Boolean."
@@ -13521,7 +13516,7 @@ lrdQsaR+Ydz7BjJoopAVBU01xLMFEjlgowAT0oooe5cW+VkVFFFMgKKKKAE70lFFAC0UUUAf/9k=
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		ManagTypes.UserCode.cs
+		ManageTypes.UserCode.cs
 	</usercodefile>
 	<references/>
 </recordtable>
