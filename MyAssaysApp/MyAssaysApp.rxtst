@@ -17,6 +17,9 @@ rxversion="6.1">
 			name="MyAssaysApp"
 			id="26080d76-7565-4347-b254-b4e883ed4d64"
 			reportlevel="Info;20"/>
+			<testcase
+			name="TestCase"
+			id="47bc63a8-e81b-4001-be49-13ce3fe8ca2b"/>
 			<testmodule
 			name="DescriptionRackProtocol"
 			id="59d44d0d-119c-48fa-8a9b-f3c632fb2dc6"
@@ -33,10 +36,10 @@ rxversion="6.1">
 			ref="a9a16d6d-18c9-4b03-981f-b7d53a8149e4"
 			type="Recording"/>
 			<testcase
-			name="TestCase1"
+			name="EndpointAbsorbanceMicroplate(OD)"
 			id="86a2c575-236a-4d5f-944e-f8a2ba0c08e4"/>
 			<testcase
-			name="TestCase"
+			name="EndpointAbsorbanceRack(OD)"
 			id="8eacbb44-1531-4c20-b475-68d65f212534"/>
 			<testmodule
 			name="NewProtocol"
@@ -94,7 +97,7 @@ rxversion="6.1">
 				name="MyAssaysApp"
 				id="26080d76-7565-4347-b254-b4e883ed4d64">
 					<testcase
-					name="TestCase"
+					name="EndpointAbsorbanceRack(OD)"
 					id="8eacbb44-1531-4c20-b475-68d65f212534">
 						<testmodule
 						name="NewProtocol"
@@ -116,7 +119,7 @@ rxversion="6.1">
 						id="59d44d0d-119c-48fa-8a9b-f3c632fb2dc6"/>
 					</testcase>
 					<testcase
-					name="TestCase1"
+					name="EndpointAbsorbanceMicroplate(OD)"
 					id="86a2c575-236a-4d5f-944e-f8a2ba0c08e4">
 						<testmodule
 						name="NewProtocol"
@@ -137,6 +140,9 @@ rxversion="6.1">
 						name="DescriptionPlateProtocol"
 						id="a3166805-afcd-487e-b70c-b0f382c3fbb3"/>
 					</testcase>
+					<testcase
+					name="TestCase"
+					id="47bc63a8-e81b-4001-be49-13ce3fe8ca2b"/>
 				</testcase>
 			</testsuite>
 		</childhierarchy>

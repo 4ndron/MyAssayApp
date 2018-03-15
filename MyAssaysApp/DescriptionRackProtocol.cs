@@ -213,14 +213,6 @@ namespace MyAssaysApp
             repo.NewProtocolWizard.SomeContainer.Finish.Click(Location.CenterRight);
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ProtocolMyEndpoint12x8Protocol2.SomeContainer.Ribbon' at 37;56.", repo.ProtocolMyEndpoint12x8Protocol2.SomeContainer.RibbonInfo, new RecordItemIndex(35));
-            repo.ProtocolMyEndpoint12x8Protocol2.SomeContainer.Ribbon.Click("37;56");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ProtocolMyEndpoint12x8Protocol2.SomeContainer.ControlLabel' at Center.", repo.ProtocolMyEndpoint12x8Protocol2.SomeContainer.ControlLabelInfo, new RecordItemIndex(36));
-            repo.ProtocolMyEndpoint12x8Protocol2.SomeContainer.ControlLabel.Click();
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data

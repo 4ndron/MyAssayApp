@@ -1,10 +1,12 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="MyAssaysApp.rxtst" />
+    <Element value="ManagTypes.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="MyAssaysApp.rxtst" />
+    <Element value="SampleTypes.rxrec" />
+    <Element value="ManagTypes.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

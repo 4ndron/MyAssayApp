@@ -87,53 +87,153 @@ namespace MyAssaysApp
             Validate.Attribute(repo.NewProtocolWizard1.SelectTheSampleTypesUsedInYourAssInfo, "Text", "Select the sample types used in your assay:");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard1.ScrollViewer.CheckBox'.", repo.NewProtocolWizard1.ScrollViewer.CheckBoxInfo, new RecordItemIndex(2));
-            Validate.Attribute(repo.NewProtocolWizard1.ScrollViewer.CheckBoxInfo, "Checked", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBoxInfo, new RecordItemIndex(2));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBoxInfo, "Checked", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard1.ScrollViewer.CheckBox1'.", repo.NewProtocolWizard1.ScrollViewer.CheckBox1Info, new RecordItemIndex(3));
-            Validate.Attribute(repo.NewProtocolWizard1.ScrollViewer.CheckBox1Info, "Checked", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBoxInfo, new RecordItemIndex(3));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBoxInfo, "CheckState", "Checked");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard1.ScrollViewer.CheckBox2'.", repo.NewProtocolWizard1.ScrollViewer.CheckBox2Info, new RecordItemIndex(4));
-            Validate.Attribute(repo.NewProtocolWizard1.ScrollViewer.CheckBox2Info, "Checked", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox2'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox2Info, new RecordItemIndex(4));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox2Info, "Checked", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard1.ScrollViewer.CheckBox3'.", repo.NewProtocolWizard1.ScrollViewer.CheckBox3Info, new RecordItemIndex(5));
-            Validate.Attribute(repo.NewProtocolWizard1.ScrollViewer.CheckBox3Info, "Checked", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox2'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox2Info, new RecordItemIndex(5));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox2Info, "CheckState", "Checked");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard1.ScrollViewer.CheckBox4'.", repo.NewProtocolWizard1.ScrollViewer.CheckBox4Info, new RecordItemIndex(6));
-            Validate.Attribute(repo.NewProtocolWizard1.ScrollViewer.CheckBox4Info, "Checked", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox3'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox3Info, new RecordItemIndex(6));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox3Info, "Checked", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard1.ScrollViewer.CheckBox5'.", repo.NewProtocolWizard1.ScrollViewer.CheckBox5Info, new RecordItemIndex(7));
-            Validate.Attribute(repo.NewProtocolWizard1.ScrollViewer.CheckBox5Info, "Checked", "True");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox3'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox3Info, new RecordItemIndex(7));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox3Info, "CheckState", "Checked");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox1'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox4'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox4Info, new RecordItemIndex(8));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox4Info, "Checked", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox4'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox4Info, new RecordItemIndex(9));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox4Info, "CheckState", "Checked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox5'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, new RecordItemIndex(10));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, "Checked", "False");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Unchecked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox5'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, new RecordItemIndex(11));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, "CheckState", "Unchecked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox6'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, new RecordItemIndex(12));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, "Checked", "False");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Unchecked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox6'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, new RecordItemIndex(13));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, "CheckState", "Unchecked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox1'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, new RecordItemIndex(14));
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, "Checked", "False");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Back') on item 'NewProtocolWizard.SomeContainer.Back'.", repo.NewProtocolWizard.SomeContainer.BackInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Unchecked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox1'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, new RecordItemIndex(15));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, "CheckState", "Unchecked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox7'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, new RecordItemIndex(16));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, "Checked", "False");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Unchecked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox7'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, new RecordItemIndex(17));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, "CheckState", "Unchecked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox8'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, new RecordItemIndex(18));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, "Checked", "False");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Unchecked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox8'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, new RecordItemIndex(19));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, "CheckState", "Unchecked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.SomeCheckBox5' at CenterLeft.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, new RecordItemIndex(20));
+            repo.NewProtocolWizard.SomeContainer.SomeCheckBox5.Click(Location.CenterLeft);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.SomeCheckBox6' at CenterLeft.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, new RecordItemIndex(21));
+            repo.NewProtocolWizard.SomeContainer.SomeCheckBox6.Click(Location.CenterLeft);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.SomeCheckBox1' at CenterLeft.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, new RecordItemIndex(22));
+            repo.NewProtocolWizard.SomeContainer.SomeCheckBox1.Click(Location.CenterLeft);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.SomeCheckBox7' at CenterLeft.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, new RecordItemIndex(23));
+            repo.NewProtocolWizard.SomeContainer.SomeCheckBox7.Click(Location.CenterLeft);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.SomeCheckBox8' at CenterLeft.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, new RecordItemIndex(24));
+            repo.NewProtocolWizard.SomeContainer.SomeCheckBox8.Click(Location.CenterLeft);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox5'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, new RecordItemIndex(25));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, "Checked", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox5'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, new RecordItemIndex(26));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox5Info, "CheckState", "Checked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox6'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, new RecordItemIndex(27));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, "Checked", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox6'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, new RecordItemIndex(28));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox6Info, "CheckState", "Checked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox1'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, new RecordItemIndex(29));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox1Info, "Checked", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox7'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, new RecordItemIndex(30));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, "Checked", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox7'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, new RecordItemIndex(31));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox7Info, "CheckState", "Checked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox8'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, new RecordItemIndex(32));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, "Checked", "True");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (CheckState='Checked') on item 'NewProtocolWizard.SomeContainer.SomeCheckBox8'.", repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, new RecordItemIndex(33));
+            Validate.Attribute(repo.NewProtocolWizard.SomeContainer.SomeCheckBox8Info, "CheckState", "Checked");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Back') on item 'NewProtocolWizard.SomeContainer.Back'.", repo.NewProtocolWizard.SomeContainer.BackInfo, new RecordItemIndex(34));
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer.BackInfo, "Text", "Back");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Manage Types...') on item 'NewProtocolWizard.SomeContainer.AdvancedViewButton'.", repo.NewProtocolWizard.SomeContainer.AdvancedViewButtonInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Manage Types...') on item 'NewProtocolWizard.SomeContainer.AdvancedViewButton'.", repo.NewProtocolWizard.SomeContainer.AdvancedViewButtonInfo, new RecordItemIndex(35));
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer.AdvancedViewButtonInfo, "Text", "Manage Types...");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Next') on item 'NewProtocolWizard.SomeContainer.Next'.", repo.NewProtocolWizard.SomeContainer.NextInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Next') on item 'NewProtocolWizard.SomeContainer.Next'.", repo.NewProtocolWizard.SomeContainer.NextInfo, new RecordItemIndex(36));
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer.NextInfo, "Text", "Next");
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.NewProtocolWizard.SomeContainer.Self, false, new RecordItemIndex(12));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.NewProtocolWizard.SomeContainer.Self, false, new RecordItemIndex(37));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Next') on item 'NewProtocolWizard.SomeContainer.Next1'.", repo.NewProtocolWizard.SomeContainer.Next1Info, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Next') on item 'NewProtocolWizard.SomeContainer.Next1'.", repo.NewProtocolWizard.SomeContainer.Next1Info, new RecordItemIndex(38));
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer.Next1Info, "Text", "Next");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.Next1' at Center.", repo.NewProtocolWizard.SomeContainer.Next1Info, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer.Next1' at Center.", repo.NewProtocolWizard.SomeContainer.Next1Info, new RecordItemIndex(39));
             repo.NewProtocolWizard.SomeContainer.Next1.Click();
             Delay.Milliseconds(200);
             
