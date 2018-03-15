@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\bin\Debug\MyAssaysApp.rxtmg
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\bin\Debug\MyAssaysApp.rxtst
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\bin\Debug\MyAssaysApp.exe.config
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\bin\Debug\MyAssaysApp.exe
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\bin\Debug\MyAssaysApp.pdb
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\obj\x86\Debug\MyAssaysApp.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\obj\x86\Debug\MyAssaysApp.exe
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\obj\x86\Debug\MyAssaysApp.pdb

@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="712fee6ce427d06"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-TST0ERP"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="14.03.2018 15:59:35"
+		timestampiso="2018-03-14T13:59:35"
+		timeoutfactor="1"
+		module="SamplesArranged">
+		<detail>
+			SamplesArranged
+		</detail>
+		<errmsg>
+			Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem5' does not match the specified RegEx (actual='True', regex='^((?!(True))(.|
+))*$').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.507"
+			timeRelativeToTestModuleStartTime="00:00.508"
+			timeWallClock="15:59:36"
+			time="00:00.507"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.849"
+			timeRelativeToTestModuleStartTime="00:00.850"
+			timeWallClock="15:59:36"
+			time="00:00.849"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Select how your samples are arranged. Use an existing layout or create a new one.') on item 'NewProtocolWizard.SomeContainer.SelectHowYourSamplesAreArrangedUs'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/text[@caption~'^Select\ how\ your\ samples\ a' and @visible='True' and @text='Select how your samples are arranged. Use an existing layout or create a new one.']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SelectHowYourSamplesAreArrangedUs"
+				id="65c4c22fa0ee4d46b0794dcbac1bbcce"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.278"
+			timeRelativeToTestModuleStartTime="00:02.279"
+			timeWallClock="15:59:38"
+			time="00:02.278"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SelectHowYourSamplesAreArrangedUs' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/text[@caption~'^Select\ how\ your\ samples\ a' and @visible='True' and @text='Select how your samples are arranged. Use an existing layout or create a new one.']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SelectHowYourSamplesAreArrangedUs"
+				id="65c4c22fa0ee4d46b0794dcbac1bbcce"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.391"
+			timeRelativeToTestModuleStartTime="00:02.392"
+			timeWallClock="15:59:38"
+			time="00:02.391"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[1]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem2"
+				id="5cb8c717eb8b4b41b565865a1d5584d9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.515"
+			timeRelativeToTestModuleStartTime="00:02.516"
+			timeWallClock="15:59:38"
+			time="00:02.515"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[1]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem2"
+				id="5cb8c717eb8b4b41b565865a1d5584d9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.627"
+			timeRelativeToTestModuleStartTime="00:02.628"
+			timeWallClock="15:59:38"
+			time="00:02.627"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[1]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem2"
+				id="5cb8c717eb8b4b41b565865a1d5584d9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.723"
+			timeRelativeToTestModuleStartTime="00:02.724"
+			timeWallClock="15:59:38"
+			time="00:02.723"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[1]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem2"
+				id="5cb8c717eb8b4b41b565865a1d5584d9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.834"
+			timeRelativeToTestModuleStartTime="00:02.835"
+			timeWallClock="15:59:38"
+			time="00:02.834"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem3'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem3"
+				id="8c7f5740a1544faf8491b36e203749c6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.937"
+			timeRelativeToTestModuleStartTime="00:02.938"
+			timeWallClock="15:59:38"
+			time="00:02.937"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem3' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem3"
+				id="8c7f5740a1544faf8491b36e203749c6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.049"
+			timeRelativeToTestModuleStartTime="00:03.050"
+			timeWallClock="15:59:38"
+			time="00:03.049"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem3'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem3"
+				id="8c7f5740a1544faf8491b36e203749c6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.154"
+			timeRelativeToTestModuleStartTime="00:03.155"
+			timeWallClock="15:59:38"
+			time="00:03.154"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem3' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem3"
+				id="8c7f5740a1544faf8491b36e203749c6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.263"
+			timeRelativeToTestModuleStartTime="00:03.264"
+			timeWallClock="15:59:39"
+			time="00:03.263"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[3]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem"
+				id="20ea576f931d478db205c44f2de208d1"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.365"
+			timeRelativeToTestModuleStartTime="00:03.366"
+			timeWallClock="15:59:39"
+			time="00:03.365"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[3]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem"
+				id="20ea576f931d478db205c44f2de208d1"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="6"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.477"
+			timeRelativeToTestModuleStartTime="00:03.478"
+			timeWallClock="15:59:39"
+			time="00:03.477"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[3]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem"
+				id="20ea576f931d478db205c44f2de208d1"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.596"
+			timeRelativeToTestModuleStartTime="00:03.597"
+			timeWallClock="15:59:39"
+			time="00:03.596"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[3]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem"
+				id="20ea576f931d478db205c44f2de208d1"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="111"
+				loglvl="Success"
+				itemindex="7"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.707"
+			timeRelativeToTestModuleStartTime="00:03.708"
+			timeWallClock="15:59:39"
+			time="00:03.707"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[4]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem1"
+				id="ad3ed8beb5ff48699688ead9160463b7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.802"
+			timeRelativeToTestModuleStartTime="00:03.803"
+			timeWallClock="15:59:39"
+			time="00:03.802"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[4]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem1"
+				id="ad3ed8beb5ff48699688ead9160463b7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="8"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.912"
+			timeRelativeToTestModuleStartTime="00:03.913"
+			timeWallClock="15:59:39"
+			time="00:03.912"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[4]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem1"
+				id="ad3ed8beb5ff48699688ead9160463b7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.009"
+			timeRelativeToTestModuleStartTime="00:04.010"
+			timeWallClock="15:59:39"
+			time="00:04.009"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[4]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem1"
+				id="ad3ed8beb5ff48699688ead9160463b7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="119"
+				loglvl="Success"
+				itemindex="9"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.123"
+			timeRelativeToTestModuleStartTime="00:04.124"
+			timeWallClock="15:59:39"
+			time="00:04.123"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard.SomeContainer.SomeListItem4'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[5]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem4"
+				id="966b96a0e60a4b3ca12620ff2057985e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.223"
+			timeRelativeToTestModuleStartTime="00:04.224"
+			timeWallClock="15:59:40"
+			time="00:04.223"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem4' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[5]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem4"
+				id="966b96a0e60a4b3ca12620ff2057985e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="123"
+				loglvl="Success"
+				itemindex="10"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.333"
+			timeRelativeToTestModuleStartTime="00:04.334"
+			timeWallClock="15:59:40"
+			time="00:04.333"
+			level="Info"
+			category="Validation"
+			errimg=".\SamplesA_8d902c09_a981b7cf_trace.jpg"
+			errthumb=".\SamplesA_8d902c09_a981b7cf_trace_thumb.jpg">
+			<message>
+				Validating AttributeNotContains (Enabled!&gt;'True') on item 'NewProtocolWizard.SomeContainer.SomeListItem5'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[6]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem5"
+				id="c1eb3500ee5543efa4e415985a30f0f8"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.435"
+			timeRelativeToTestModuleStartTime="00:04.436"
+			timeWallClock="15:59:40"
+			time="00:04.435"
+			level="Failure"
+			category="Validation"
+			errimg=".\SamplesA_8d902c09_4dbdb740_trace.jpg"
+			errthumb=".\SamplesA_8d902c09_4dbdb740_trace_thumb.jpg">
+			<message>
+				Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem5' does not match the specified RegEx (actual='True', regex='^((?!(True))(.|
+))*$').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[6]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem5"
+				id="c1eb3500ee5543efa4e415985a30f0f8"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="127"
+				loglvl="Failure"
+				itemindex="11"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.448"
+			timeRelativeToTestModuleStartTime="00:04.449"
+			timeWallClock="15:59:40"
+			time="00:04.448"
+			level="Error"
+			category="Module"
+			errimg=".\SamplesA_8d902c09_4dbdb740_trace.jpg"
+			errthumb=".\SamplesA_8d902c09_4dbdb740_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Enabled' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem5' does not match the specified RegEx (actual='True', regex='^((?!(True))(.|
+))*$').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex)
+   at MyAssaysApp.SamplesArranged.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs:line 127
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\SamplesArranged.cs"
+				codeline="127"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//container[@automationid='Self']/container//list[@automationid='MainListBox']/container/listitem[6]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomeListItem5"
+				id="c1eb3500ee5543efa4e415985a30f0f8"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="11"/>
+		</item>
+	</activity>
+</report>

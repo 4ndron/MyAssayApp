@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e65ad58d61e936"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-TST0ERP"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="14.03.2018 12:09:50"
+		timestampiso="2018-03-14T10:09:50"
+		timeoutfactor="1"
+		module="FormatRack">
+		<detail>
+			FormatRack
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.606"
+			timeRelativeToTestModuleStartTime="00:00.606"
+			timeWallClock="12:09:51"
+			time="00:00.606"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.026"
+			timeRelativeToTestModuleStartTime="00:01.026"
+			timeWallClock="12:09:51"
+			time="00:01.026"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='My data is measured in the format:') on item 'NewProtocolWizard.SomeContainer.MyDataIsMeasuredInTheFormat'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/text[@caption~'^My\ data\ is\ measured\ in\ th' and @text='My data is measured in the format:' and @visible='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.MyDataIsMeasuredInTheFormat"
+				id="610582697ee74588bd141c683da58f07"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.593"
+			timeRelativeToTestModuleStartTime="00:03.593"
+			timeWallClock="12:09:54"
+			time="00:03.593"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.MyDataIsMeasuredInTheFormat' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/text[@caption~'^My\ data\ is\ measured\ in\ th' and @text='My data is measured in the format:' and @visible='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.MyDataIsMeasuredInTheFormat"
+				id="610582697ee74588bd141c683da58f07"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.706"
+			timeRelativeToTestModuleStartTime="00:03.706"
+			timeWallClock="12:09:54"
+			time="00:03.706"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.OptionMark2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton']/element[@automationid='optionMark']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.OptionMark2"
+				id="06c81eda8fb84f598e77aaef811ccdeb"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.467"
+			timeRelativeToTestModuleStartTime="00:04.468"
+			timeWallClock="12:09:55"
+			time="00:04.467"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewProtocolWizard.SomeContainer.RackRadioButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton' and @visible='True' and @enabled='True' and @checked='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.RackRadioButton"
+				id="4c56b12f465943b994173fb4ccb88bcd"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.520"
+			timeRelativeToTestModuleStartTime="00:04.521"
+			timeWallClock="12:09:55"
+			time="00:04.520"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'RackRadioButton' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton' and @visible='True' and @enabled='True' and @checked='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.RackRadioButton"
+				id="4c56b12f465943b994173fb4ccb88bcd"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.632"
+			timeRelativeToTestModuleStartTime="00:04.633"
+			timeWallClock="12:09:55"
+			time="00:04.632"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Number of samples per rack:') on item 'NewProtocolWizard.SomeContainer.NumberOfSamplesPerRack'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/text[@caption~'^Number\ of\ samples\ per\ rac']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.NumberOfSamplesPerRack"
+				id="8551af3749cc4daea5bc0039ce24ad57"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.678"
+			timeRelativeToTestModuleStartTime="00:04.679"
+			timeWallClock="12:09:55"
+			time="00:04.678"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.NumberOfSamplesPerRack' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/text[@caption~'^Number\ of\ samples\ per\ rac']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.NumberOfSamplesPerRack"
+				id="8551af3749cc4daea5bc0039ce24ad57"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.787"
+			timeRelativeToTestModuleStartTime="00:04.788"
+			timeWallClock="12:09:55"
+			time="00:04.787"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='10') on item 'NewProtocolWizard.SomeContainer.Text10'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/text[@caption='10' and @visible='True' and @type='TextBox']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Text10"
+				id="ccccfe6cc39440a9bc4aec318d634f87"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.837"
+			timeRelativeToTestModuleStartTime="00:04.838"
+			timeWallClock="12:09:55"
+			time="00:04.837"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Text10' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/text[@caption='10' and @visible='True' and @type='TextBox']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Text10"
+				id="ccccfe6cc39440a9bc4aec318d634f87"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.947"
+			timeRelativeToTestModuleStartTime="00:04.947"
+			timeWallClock="12:09:55"
+			time="00:04.947"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewProtocolWizard.SomeContainer.SomePicture'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/picture[@visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomePicture"
+				id="9b505be6a05a45e6b8a6d6e515cf3ee6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.991"
+			timeRelativeToTestModuleStartTime="00:04.992"
+			timeWallClock="12:09:55"
+			time="00:04.991"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SomePicture' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/picture[@visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.SomePicture"
+				id="9b505be6a05a45e6b8a6d6e515cf3ee6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="6"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.248"
+			timeRelativeToTestModuleStartTime="00:05.248"
+			timeWallClock="12:09:56"
+			time="00:05.248"
+			level="Info"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\FormatRa_f08377ac_rxlog.jpg"><img src=".\FormatRa_f08377ac_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="110"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.252"
+			timeRelativeToTestModuleStartTime="00:05.253"
+			timeWallClock="12:09:56"
+			time="00:05.252"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Back') on item 'NewProtocolWizard.SomeContainer.Back'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/button[@text='Back' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Back"
+				id="9424b9ea58694b78b563bc52ad5f2fa7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.290"
+			timeRelativeToTestModuleStartTime="00:05.291"
+			timeWallClock="12:09:56"
+			time="00:05.290"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Back' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/button[@text='Back' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Back"
+				id="9424b9ea58694b78b563bc52ad5f2fa7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="8"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.401"
+			timeRelativeToTestModuleStartTime="00:05.401"
+			timeWallClock="12:09:56"
+			time="00:05.401"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Next') on item 'NewProtocolWizard.SomeContainer.Next'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next"
+				id="e3a1680934be41fbb7d1c76087ad36f7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.447"
+			timeRelativeToTestModuleStartTime="00:05.448"
+			timeWallClock="12:09:56"
+			time="00:05.447"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next"
+				id="e3a1680934be41fbb7d1c76087ad36f7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="117"
+				loglvl="Success"
+				itemindex="9"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.560"
+			timeRelativeToTestModuleStartTime="00:05.561"
+			timeWallClock="12:09:56"
+			time="00:05.560"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.Next' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next"
+				id="e3a1680934be41fbb7d1c76087ad36f7"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatRack.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

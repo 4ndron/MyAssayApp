@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MyAssaysApp"
+      id="04ce4f59-4c0f-49bc-830b-dc9fdb3406fb"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MyAssaysApp"
+      id="04ce4f59-4c0f-49bc-830b-dc9fdb3406fb"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

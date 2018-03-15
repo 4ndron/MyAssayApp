@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8df10d22d966af4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-TST0ERP"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="14.03.2018 18:54:10"
+		timestampiso="2018-03-14T16:54:10"
+		timeoutfactor="1"
+		module="FormatPadPlate">
+		<detail>
+			FormatPadPlate
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.309"
+			timeRelativeToTestModuleStartTime="00:01.310"
+			timeWallClock="18:54:11"
+			time="00:01.309"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.662"
+			timeRelativeToTestModuleStartTime="00:01.663"
+			timeWallClock="18:54:12"
+			time="00:01.662"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Provide your measurement data following the format illustrated by the example data.') on item 'NewProtocolWizard.SomeContainer.ProvideYourMeasurementDataFollowing'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/text[@caption~'^Provide\ your\ measurement\ ']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.ProvideYourMeasurementDataFollowing"
+				id="60b1565e9e484f9085f5ed75501a850e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.582"
+			timeRelativeToTestModuleStartTime="00:02.583"
+			timeWallClock="18:54:12"
+			time="00:02.582"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.ProvideYourMeasurementDataFollowing' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/text[@caption~'^Provide\ your\ measurement\ ']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.ProvideYourMeasurementDataFollowing"
+				id="60b1565e9e484f9085f5ed75501a850e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.695"
+			timeRelativeToTestModuleStartTime="00:02.696"
+			timeWallClock="18:54:13"
+			time="00:02.695"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (Text='Paste') on item 'NewProtocolWizard.MultipleContainerViewPanel.PasteButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='PasteButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.PasteButton"
+				id="8f1a945742504397b281f4c53c2582e8"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.048"
+			timeRelativeToTestModuleStartTime="00:07.049"
+			timeWallClock="18:54:17"
+			time="00:07.048"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.PasteButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='PasteButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.PasteButton"
+				id="8f1a945742504397b281f4c53c2582e8"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="92"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.159"
+			timeRelativeToTestModuleStartTime="00:07.160"
+			timeWallClock="18:54:17"
+			time="00:07.159"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Clear') on item 'NewProtocolWizard.MultipleContainerViewPanel.ClearButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='ClearButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.ClearButton"
+				id="d0fcd614430c40539878218068f25777"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.287"
+			timeRelativeToTestModuleStartTime="00:07.288"
+			timeWallClock="18:54:17"
+			time="00:07.287"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.ClearButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='ClearButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.ClearButton"
+				id="d0fcd614430c40539878218068f25777"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="97"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.397"
+			timeRelativeToTestModuleStartTime="00:07.398"
+			timeWallClock="18:54:17"
+			time="00:07.397"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/checkbox[@automationid='DataFormatToggleButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton"
+				id="6c68e981b58d4eaca3453758aca96fda"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.508"
+			timeRelativeToTestModuleStartTime="00:07.509"
+			timeWallClock="18:54:17"
+			time="00:07.508"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/checkbox[@automationid='DataFormatToggleButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton"
+				id="6c68e981b58d4eaca3453758aca96fda"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.621"
+			timeRelativeToTestModuleStartTime="00:07.622"
+			timeWallClock="18:54:18"
+			time="00:07.621"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/checkbox[@automationid='DataFormatToggleButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton"
+				id="6c68e981b58d4eaca3453758aca96fda"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.410"
+			timeRelativeToTestModuleStartTime="00:08.411"
+			timeWallClock="18:54:18"
+			time="00:08.410"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Decimal separator:') on item 'NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparator'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/text[@caption='Decimal separator:' and @visible='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparator"
+				id="95d4483c43c444aba140fcd742353376"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.520"
+			timeRelativeToTestModuleStartTime="00:08.521"
+			timeWallClock="18:54:18"
+			time="00:08.520"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparator' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/text[@caption='Decimal separator:' and @visible='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparator"
+				id="95d4483c43c444aba140fcd742353376"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="6"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.633"
+			timeRelativeToTestModuleStartTime="00:08.634"
+			timeWallClock="18:54:19"
+			time="00:08.633"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='System Default') on item 'NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/combobox[@automationid='DecimalSeparatorComboBox' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox"
+				id="5ff700cc72d342409a0cb50dc53419c9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.751"
+			timeRelativeToTestModuleStartTime="00:08.752"
+			timeWallClock="18:54:19"
+			time="00:08.751"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/combobox[@automationid='DecimalSeparatorComboBox' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox"
+				id="5ff700cc72d342409a0cb50dc53419c9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="7"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.865"
+			timeRelativeToTestModuleStartTime="00:08.866"
+			timeWallClock="18:54:19"
+			time="00:08.865"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox' at LowerCenter.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/combobox[@automationid='DecimalSeparatorComboBox' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox"
+				id="5ff700cc72d342409a0cb50dc53419c9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.665"
+			timeRelativeToTestModuleStartTime="00:09.666"
+			timeWallClock="18:54:20"
+			time="00:09.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Comma' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Comma (,)']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Comma"
+				id="bd52300914b04cfba9d394bf991567bc"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.521"
+			timeRelativeToTestModuleStartTime="00:10.522"
+			timeWallClock="18:54:20"
+			time="00:10.521"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/combobox[@automationid='DecimalSeparatorComboBox' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox"
+				id="5ff700cc72d342409a0cb50dc53419c9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.349"
+			timeRelativeToTestModuleStartTime="00:11.350"
+			timeWallClock="18:54:21"
+			time="00:11.349"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Period' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Period (.)']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.Period"
+				id="dd14e2e71e41457abc793c3223c56fd8"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.258"
+			timeRelativeToTestModuleStartTime="00:12.259"
+			timeWallClock="18:54:22"
+			time="00:12.258"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[2]/combobox[@automationid='DecimalSeparatorComboBox' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DecimalSeparatorComboBox"
+				id="5ff700cc72d342409a0cb50dc53419c9"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.061"
+			timeRelativeToTestModuleStartTime="00:13.062"
+			timeWallClock="18:54:23"
+			time="00:13.061"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.SystemDefault' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='System Default']"
+				fullname="MyAssaysAppRepository.MyAssaysDesktopExplorer.SystemDefault"
+				id="1dacef1bf3cd48f89edfcb6652652156"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="136"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.889"
+			timeRelativeToTestModuleStartTime="00:13.890"
+			timeWallClock="18:54:24"
+			time="00:13.889"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/checkbox[@automationid='DataFormatToggleButton' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton"
+				id="6c68e981b58d4eaca3453758aca96fda"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="140"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.771"
+			timeRelativeToTestModuleStartTime="00:14.772"
+			timeWallClock="18:54:25"
+			time="00:14.771"
+			level="Info"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\FormatPa_9a71a74b_rxlog.jpg"><img src=".\FormatPa_9a71a74b_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="144"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.775"
+			timeRelativeToTestModuleStartTime="00:14.776"
+			timeWallClock="18:54:25"
+			time="00:14.775"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewProtocolWizard.SomeContainer.TabPagePad'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.TabPagePad"
+				id="e37ecc3225044b78917341b8ca2492c4"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="146"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.850"
+			timeRelativeToTestModuleStartTime="00:14.851"
+			timeWallClock="18:54:25"
+			time="00:14.850"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TabPagePad' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.TabPagePad"
+				id="e37ecc3225044b78917341b8ca2492c4"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="147"
+				loglvl="Success"
+				itemindex="16"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.005"
+			timeRelativeToTestModuleStartTime="00:15.006"
+			timeWallClock="18:54:25"
+			time="00:15.005"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewProtocolWizard.MultipleContainerViewPanel.SomeElement'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/text[@automationid='PadViewTextBox']/element[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement"
+				id="cff3acf411154960aa2a626a69201415"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.122"
+			timeRelativeToTestModuleStartTime="00:15.123"
+			timeWallClock="18:54:25"
+			time="00:15.122"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SomeElement' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/text[@automationid='PadViewTextBox']/element[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement"
+				id="cff3acf411154960aa2a626a69201415"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="151"
+				loglvl="Success"
+				itemindex="17"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.234"
+			timeRelativeToTestModuleStartTime="00:15.235"
+			timeWallClock="18:54:25"
+			time="00:15.234"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.EndpointGridTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.EndpointGridTab"
+				id="83fe8ca4894a4b22a00d0882023109e6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.054"
+			timeRelativeToTestModuleStartTime="00:16.055"
+			timeWallClock="18:54:26"
+			time="00:16.054"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewProtocolWizard.SomeContainer.EndpointGridTab'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.EndpointGridTab"
+				id="83fe8ca4894a4b22a00d0882023109e6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.128"
+			timeRelativeToTestModuleStartTime="00:16.129"
+			timeWallClock="18:54:26"
+			time="00:16.128"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'EndpointGridTab' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.EndpointGridTab"
+				id="83fe8ca4894a4b22a00d0882023109e6"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="159"
+				loglvl="Success"
+				itemindex="19"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.242"
+			timeRelativeToTestModuleStartTime="00:16.243"
+			timeWallClock="18:54:26"
+			time="00:16.242"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'NewProtocolWizard.SomeElement'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='BackgroundFrame' and @visible='True' and @enabled='True']/element[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeElement"
+				id="4f087f68a07843b98fe3de864173ba35"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="162"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.382"
+			timeRelativeToTestModuleStartTime="00:16.383"
+			timeWallClock="18:54:26"
+			time="00:16.382"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SomeElement' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='BackgroundFrame' and @visible='True' and @enabled='True']/element[2]"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeElement"
+				id="4f087f68a07843b98fe3de864173ba35"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="163"
+				loglvl="Success"
+				itemindex="20"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.595"
+			timeRelativeToTestModuleStartTime="00:16.596"
+			timeWallClock="18:54:26"
+			time="00:16.595"
+			level="Info"
+			category="User">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\FormatPa_f7ca32b0_rxlog.jpg"><img src=".\FormatPa_f7ca32b0_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				itemindex="21"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="166"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.598"
+			timeRelativeToTestModuleStartTime="00:16.599"
+			timeWallClock="18:54:26"
+			time="00:16.598"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Valid='True') on item 'NewProtocolWizard.SomeContainer.Next1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next1"
+				id="e1087e3a04434a73b97f8b2f8a4089af"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="168"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.629"
+			timeRelativeToTestModuleStartTime="00:16.630"
+			timeWallClock="18:54:27"
+			time="00:16.629"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Valid' of element for item 'MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next1"
+				id="e1087e3a04434a73b97f8b2f8a4089af"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="169"
+				loglvl="Success"
+				itemindex="22"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.738"
+			timeRelativeToTestModuleStartTime="00:16.739"
+			timeWallClock="18:54:27"
+			time="00:16.738"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer.Next1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next' and @visible='True' and @enabled='True']"
+				fullname="MyAssaysAppRepository.NewProtocolWizard.SomeContainer.Next1"
+				id="e1087e3a04434a73b97f8b2f8a4089af"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\MyAssaysApp\MyAssaysApp\FormatPadPlate.cs"
+				codeline="172"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>
